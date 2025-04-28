@@ -1,0 +1,9 @@
+{
+  "type": "content",
+  "modid": "pachycephalosauria",
+  "name": "Legacy of the Phanerozoic: Domed Head",
+  "authors": [ "laughinggas" ],
+  "description": "Adds the family of pachycephalosaurians dinosaurs to Vintage Story",
+  "version": "1.0.0",
+  "side": "Universal"
+}

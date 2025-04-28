@@ -1,0 +1,242 @@
+[
+  {
+    "file": "ankylosauria:entities/land/ankylosauria.json",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "side": "Server",
+    "value": {
+        "*-pachycephalosaurus-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-platytholus-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-prenocephale-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+        "*-stegoceras-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-hanssuesia-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-sinocephale-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+
+          ]
+        },
+
+        "*-sphaerotholus-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-tylocephale-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+        "*-homalocephale-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+        "*-acrotholus-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-goyocephale-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+        "*-foraminacephale-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-alaskacephale-*": {
+          "biorealm": [
+            "pacific nearctic",
+          ]
+        },
+
+        "*-colepiocephale-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-amtocephale-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+        "*-wannanosaurus-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+
+    },
+    "dependsOn": [
+      {
+        "modid": "biomes"
+      }
+    ]
+  },
+  {
+    "file": "ankylosauria:entities/land/nest.json",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "side": "Server",
+    "value": {
+        "*-pachycephalosaurus-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-platytholus-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-prenocephale-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+        "*-stegoceras-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-hanssuesia-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-sinocephale-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+
+          ]
+        },
+
+        "*-sphaerotholus-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-tylocephale-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+        "*-homalocephale-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+        "*-acrotholus-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-goyocephale-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+        "*-foraminacephale-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-alaskacephale-*": {
+          "biorealm": [
+            "pacific nearctic",
+          ]
+        },
+
+        "*-colepiocephale-*": {
+          "biorealm": [
+            "pacific nearctic",
+            "atlantic nearctic",
+          ]
+        },
+
+        "*-amtocephale-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+        "*-wannanosaurus-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+
+
+    },
+    "dependsOn": [
+      {
+        "modid": "biomes"
+      }
+    ]
+  },
+]

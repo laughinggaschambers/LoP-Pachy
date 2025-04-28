@@ -1,0 +1,105 @@
+﻿{
+  "code": "creature",
+  "class": "ItemCreature",
+  "maxstacksize": 64,
+  "variantgroups": [
+    {
+      "code": "type",
+      "states": [ 
+	    "pachycephalosauria-pachycephalosaurus-adult-male","pachycephalosauria-pachycephalosaurus-adult-female", "pachycephalosauria-pachycephalosaurus-baby-male", "pachycephalosauria-pachycephalosaurus-baby-female","pachycephalosauria-pachycephalosaurus-nest-mature","pachycephalosauria-pachycephalosaurus-nest-incubating","pachycephalosauria-pachycephalosaurus-nest-empty",
+		"pachycephalosauria-platytholus-adult-male","pachycephalosauria-platytholus-adult-female", "pachycephalosauria-platytholus-baby-male", "pachycephalosauria-platytholus-baby-female","pachycephalosauria-platytholus-nest-mature","pachycephalosauria-platytholus-nest-incubating","pachycephalosauria-platytholus-nest-empty",
+		"pachycephalosauria-prenocephale-adult-male","pachycephalosauria-prenocephale-adult-female", "pachycephalosauria-prenocephale-baby-male", "pachycephalosauria-prenocephale-baby-female","pachycephalosauria-prenocephale-nest-mature","pachycephalosauria-prenocephale-nest-incubating","pachycephalosauria-prenocephale-nest-empty",
+		"pachycephalosauria-stegoceras-adult-male","pachycephalosauria-stegoceras-adult-female", "pachycephalosauria-stegoceras-baby-male", "pachycephalosauria-stegoceras-baby-female","pachycephalosauria-stegoceras-nest-mature","pachycephalosauria-stegoceras-nest-incubating","pachycephalosauria-stegoceras-nest-empty",
+		"pachycephalosauria-hanssuesia-adult-male","pachycephalosauria-hanssuesia-adult-female", "pachycephalosauria-hanssuesia-baby-male", "pachycephalosauria-hanssuesia-baby-female","pachycephalosauria-hanssuesia-nest-mature","pachycephalosauria-hanssuesia-nest-incubating","pachycephalosauria-hanssuesia-nest-empty",
+		"pachycephalosauria-sinocephale-adult-male","pachycephalosauria-sinocephale-adult-female", "pachycephalosauria-sinocephale-baby-male", "pachycephalosauria-sinocephale-baby-female","pachycephalosauria-sinocephale-nest-mature","pachycephalosauria-sinocephale-nest-incubating","pachycephalosauria-sinocephale-nest-empty",
+		"pachycephalosauria-sphaerotholus-adult-male","pachycephalosauria-sphaerotholus-adult-female", "pachycephalosauria-sphaerotholus-baby-male", "pachycephalosauria-sphaerotholus-baby-female","pachycephalosauria-sphaerotholus-nest-mature","pachycephalosauria-sphaerotholus-nest-incubating","pachycephalosauria-sphaerotholus-nest-empty",
+		"pachycephalosauria-tylocephale-adult-male","pachycephalosauria-tylocephale-adult-female", "pachycephalosauria-tylocephale-baby-male", "pachycephalosauria-tylocephale-baby-female","pachycephalosauria-tylocephale-nest-mature","pachycephalosauria-tylocephale-nest-incubating","pachycephalosauria-tylocephale-nest-empty",
+		"pachycephalosauria-homalocephale-adult-male","pachycephalosauria-homalocephale-adult-female", "pachycephalosauria-homalocephale-baby-male", "pachycephalosauria-homalocephale-baby-female","pachycephalosauria-homalocephale-nest-mature","pachycephalosauria-homalocephale-nest-incubating","pachycephalosauria-homalocephale-nest-empty",
+		"pachycephalosauria-acrotholus-adult-male","pachycephalosauria-acrotholus-adult-female", "pachycephalosauria-acrotholus-baby-male", "pachycephalosauria-acrotholus-baby-female","pachycephalosauria-acrotholus-nest-mature","pachycephalosauria-acrotholus-nest-incubating","pachycephalosauria-acrotholus-nest-empty",
+		"pachycephalosauria-goyocephale-adult-male","pachycephalosauria-goyocephale-adult-female", "pachycephalosauria-goyocephale-baby-male", "pachycephalosauria-goyocephale-baby-female","pachycephalosauria-goyocephale-nest-mature","pachycephalosauria-goyocephale-nest-incubating","pachycephalosauria-goyocephale-nest-empty",
+		"pachycephalosauria-foraminacephale-adult-male","pachycephalosauria-foraminacephale-adult-female", "pachycephalosauria-foraminacephale-baby-male", "pachycephalosauria-foraminacephale-baby-female","pachycephalosauria-foraminacephale-nest-mature","pachycephalosauria-foraminacephale-nest-incubating","pachycephalosauria-foraminacephale-nest-empty",
+		"pachycephalosauria-alaskacephale-adult-male","pachycephalosauria-alaskacephale-adult-female", "pachycephalosauria-alaskacephale-baby-male", "pachycephalosauria-alaskacephale-baby-female","pachycephalosauria-alaskacephale-nest-mature","pachycephalosauria-alaskacephale-nest-incubating","pachycephalosauria-alaskacephale-nest-empty",
+		"pachycephalosauria-colepiocephale-adult-male","pachycephalosauria-colepiocephale-adult-female", "pachycephalosauria-colepiocephale-baby-male", "pachycephalosauria-colepiocephale-baby-female","pachycephalosauria-colepiocephale-nest-mature","pachycephalosauria-colepiocephale-nest-incubating","pachycephalosauria-colepiocephale-nest-empty",
+		"pachycephalosauria-amtocephale-adult-male","pachycephalosauria-amtocephale-adult-female", "pachycephalosauria-amtocephale-baby-male", "pachycephalosauria-amtocephale-baby-female","pachycephalosauria-amtocephale-nest-mature","pachycephalosauria-amtocephale-nest-incubating","pachycephalosauria-amtocephale-nest-empty",
+		"pachycephalosauria-wannanosaurus-adult-male","pachycephalosauria-wannanosaurus-adult-female", "pachycephalosauria-wannanosaurus-baby-male", "pachycephalosauria-wannanosaurus-baby-female","pachycephalosauria-wannanosaurus-nest-mature","pachycephalosauria-wannanosaurus-nest-incubating","pachycephalosauria-wannanosaurus-nest-empty",
+
+	  ]
+    }
+  ],
+  "shapeByType": {
+	"*-pachycephalosaurus-adult-*": {"base": "entity/land/tyrannosauridae/pachycephalosaurus/adult"}, "*-pachycephalosaurus-baby-*": {"base": "entity/land/tyrannosauridae/pachycephalosaurus/baby"},
+	"*-platytholus-adult-*": {"base": "entity/land/tyrannosauridae/platytholus/adult"}, "*-platytholus-baby-*": {"base": "entity/land/tyrannosauridae/platytholus/baby"},
+	"*-prenocephale-adult-*": {"base": "entity/land/tyrannosauridae/prenocephale/adult"}, "*-prenocephale-baby-*": {"base": "entity/land/tyrannosauridae/prenocephale/baby"},
+	"*-stegoceras-adult-*": {"base": "entity/land/tyrannosauridae/stegoceras/adult"}, "*-stegoceras-baby-*": {"base": "entity/land/tyrannosauridae/stegoceras/baby"},
+	"*-hanssuesia-adult-*": {"base": "entity/land/tyrannosauridae/hanssuesia/adult"}, "*-hanssuesia-baby-*": {"base": "entity/land/tyrannosauridae/hanssuesia/baby"},
+	"*-sinocephale-adult-*": {"base": "entity/land/tyrannosauridae/sinocephale/adult"}, "*-sinocephale-baby-*": {"base": "entity/land/tyrannosauridae/sinocephale/baby"},
+	"*-sphaerotholus-adult-*": {"base": "entity/land/tyrannosauridae/sphaerotholus/adult"}, "*-sphaerotholus-baby-*": {"base": "entity/land/tyrannosauridae/sphaerotholus/baby"},
+	"*-tylocephale-adult-*": {"base": "entity/land/tyrannosauridae/tylocephale/adult"}, "*-tylocephale-baby-*": {"base": "entity/land/tyrannosauridae/tylocephale/baby"},
+	"*-homalocephale-adult-*": {"base": "entity/land/tyrannosauridae/homalocephale/adult"}, "*-homalocephale-baby-*": {"base": "entity/land/tyrannosauridae/homalocephale/baby"},
+	"*-acrotholus-adult-*": {"base": "entity/land/tyrannosauridae/acrotholus/adult"}, "*-acrotholus-baby-*": {"base": "entity/land/tyrannosauridae/acrotholus/baby"},
+	"*-goyocephale-adult-*": {"base": "entity/land/tyrannosauridae/goyocephale/adult"}, "*-goyocephale-baby-*": {"base": "entity/land/tyrannosauridae/goyocephale/baby"},
+	"*-foraminacephale-adult-*": {"base": "entity/land/tyrannosauridae/foraminacephale/adult"}, "*-foraminacephale-baby-*": {"base": "entity/land/tyrannosauridae/foraminacephale/baby"},
+	"*-alaskacephale-adult-*": {"base": "entity/land/tyrannosauridae/alaskacephale/adult"}, "*-alaskacephale-baby-*": {"base": "entity/land/tyrannosauridae/alaskacephale/baby"},
+	"*-colepiocephale-adult-*": {"base": "entity/land/tyrannosauridae/colepiocephale/adult"}, "*-colepiocephale-baby-*": {"base": "entity/land/tyrannosauridae/colepiocephale/baby"},
+	"*-amtocephale-adult-*": {"base": "entity/land/tyrannosauridae/amtocephale/adult"}, "*-amtocephale-baby-*": {"base": "entity/land/tyrannosauridae/amtocephale/baby"},
+	"*-wannanosaurus-adult-*": {"base": "entity/land/tyrannosauridae/wannanosaurus/adult"}, "*-wannanosaurus-baby-*": {"base": "entity/land/tyrannosauridae/wannanosaurus/baby"},
+	"*-nest-*":{"base": "entity/land/nest"}, "*-nest-empty":{"base": "entity/land/nest-empty"},
+  },
+  "textureByType": {
+	"*-pachycephalosaurus-adult-*":{"base": "entity/pachycephalosaurus-adult"},"*-pachycephalosaurus-baby-*":{"base": "entity/pachycephalosaurus-adult"},
+	"*-platytholus-adult-*":{"base": "entity/platytholus-adult"},"*-platytholus-baby-*":{"base": "entity/platytholus-adult"},
+	"*-prenocephale-adult-*":{"base": "entity/prenocephale-adult"},"*-prenocephale-baby-*":{"base": "entity/prenocephale-adult"},
+	"*-stegoceras-adult-*":{"base": "entity/stegoceras-adult"},"*-stegoceras-baby-*":{"base": "entity/stegoceras-adult"},
+	"*-hanssuesia-adult-*":{"base": "entity/hanssuesia-adult"},"*-hanssuesia-baby-*":{"base": "entity/hanssuesia-adult"},
+	"*-sinocephale-adult-*":{"base": "entity/sinocephale-adult"},"*-sinocephale-baby-*":{"base": "entity/sinocephale-adult"},
+	"*-sphaerotholus-adult-*":{"base": "entity/sphaerotholus-adult"},"*-sphaerotholus-baby-*":{"base": "entity/sphaerotholus-adult"},
+	"*-tylocephale-adult-*":{"base": "entity/tylocephale-adult"},"*-tylocephale-baby-*":{"base": "entity/tylocephale-adult"},
+	"*-homalocephale-adult-*":{"base": "entity/homalocephale-adult"},"*-homalocephale-baby-*":{"base": "entity/homalocephale-adult"},
+	"*-acrotholus-adult-*":{"base": "entity/acrotholus-adult"},"*-acrotholus-baby-*":{"base": "entity/acrotholus-adult"},
+	"*-goyocephale-adult-*":{"base": "entity/goyocephale-adult"},"*-goyocephale-baby-*":{"base": "entity/goyocephale-adult"},
+	"*-foraminacephale-adult-*":{"base": "entity/foraminacephale-adult"},"*-foraminacephale-baby-*":{"base": "entity/foraminacephale-adult"},
+	"*-alaskacephale-adult-*":{"base": "entity/alaskacephale-adult"},"*-alaskacephale-baby-*":{"base": "entity/alaskacephale-adult"},
+	"*-colepiocephale-adult-*":{"base": "entity/colepiocephale-adult"},"*-colepiocephale-baby-*":{"base": "entity/colepiocephale-adult"},
+	"*-amtocephale-adult-*":{"base": "entity/amtocephale-adult"},"*-amtocephale-baby-*":{"base": "entity/amtocephale-adult"},
+	"*-wannanosaurus-adult-*":{"base": "entity/wannanosaurus-adult"},"*-wannanosaurus-baby-*":{"base": "entity/wannanosaurus-adult"},
+ },
+  "creativeinventory": { "general": ["*"], "items": ["*"], "creatures": ["*"] },
+	"materialDensity": 600,
+	"guiTransformByType": {
+		"*-baby-*": {
+			"rotate": true,
+			"translation": { "x": -20, "y": -15, "z": 0 },
+			"rotation": { "x": -11, "y": -52, "z": -180 },
+			"origin": { "x": 1.5, "y": 1.5, "z": 1.5 },
+			"scale": 0.7
+		},
+		"creature-ankylosauria-*": {
+			"rotate": true,
+			"translation": { "x": -10, "y": 0, "z": 0 },
+			"rotation": { "x": -11, "y": -52, "z": -180 },
+			"origin": { "x": 1.5, "y": 1.5, "z": 1.5 },
+			"scale": 0.3
+		},
+	},
+
+	"tpHandTransformByType": {
+		"*-baby-*": {
+			"translation": { "x": -0.51, "y": -0.2, "z": -0.7 },
+			"rotation": { "x": 53, "y": -165, "z": 77 },
+			"origin": { "x": 0, "y": 0, "z": 0 },
+			"scale": 0.25
+		},
+		"creature-ankylosauria-*": {
+			"translation": { "x": -3, "y": -3, "z": -2 },
+			"rotation": { "x": -180, "y": 0, "z": -156 },
+			"scale": 0.15
+		}		
+	},
+
+	"fpHandTransformByType": {
+		"creature-ankylosauria-*": {
+			"translation": { "x": -5, "y": -5, "z": 0 },
+			"rotation": { "x": -8, "y": -63, "z": -7 }
+		}
+	}
+}
