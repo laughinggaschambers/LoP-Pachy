@@ -11,6 +11,7 @@
 		"egg": [256,256]
 	},
 	"textures": {
+		"pachycephalosaurus-adult": "/Users/ASUS/Documents/GitHub/LoP-Pachy/pachycephalosaurus-adult"
 	},
 	"elements": [
 		{
@@ -2628,32 +2629,32 @@
 																	"name": "Toe4",
 																	"from": [ 1.0, 0.2, 0.2 ],
 																	"to": [ 2.5, 1.2, 1.4 ],
-																	"uv": [ 16.0, 0.0 ],
+																	"uv": [ 0.0, 0.0 ],
 																	"rotationOrigin": [ 1.5, 0.7, 0.7 ],
 																	"rotationZ": 50.0,
 																	"faces": {
-																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 1.0, 17.0, 2.0 ] },
-																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 1.0, 18.0, 2.0 ] },
-																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 18.0, 1.0, 19.0, 2.0 ] },
-																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 19.0, 1.0, 20.0, 2.0 ] },
-																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 0.0, 17.0, 1.0 ] },
-																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 0.0, 18.0, 1.0 ] }
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 3.0, 1.0, 4.0, 2.0 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.0, 2.0, 1.0 ] }
 																	},
 																	"children": [
 																		{
 																			"name": "Claw3",
 																			"from": [ 1.0, 0.1, 0.1 ],
 																			"to": [ 2.5, 0.9, 1.1 ],
-																			"uv": [ 16.0, 0.0 ],
+																			"uv": [ 0.0, 0.0 ],
 																			"rotationOrigin": [ 1.1, 0.5, 0.6 ],
 																			"rotationZ": -69.0,
 																			"faces": {
-																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 1.0, 17.0, 2.0 ] },
-																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 1.0, 18.0, 2.0 ] },
-																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 18.0, 1.0, 19.0, 2.0 ] },
-																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 19.0, 1.0, 20.0, 2.0 ] },
-																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 0.0, 17.0, 1.0 ] },
-																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 0.0, 18.0, 1.0 ] }
+																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 3.0, 1.0, 4.0, 2.0 ] },
+																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.0, 2.0, 1.0 ] }
 																			}
 																		}
 																	]
@@ -2680,32 +2681,32 @@
 																	"name": "Toe6",
 																	"from": [ 1.0, 0.2, 0.2 ],
 																	"to": [ 2.5, 1.2, 1.4 ],
-																	"uv": [ 16.0, 0.0 ],
+																	"uv": [ 0.0, 0.0 ],
 																	"rotationOrigin": [ 1.5, 0.7, 0.7 ],
 																	"rotationZ": 50.0,
 																	"faces": {
-																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 1.0, 17.0, 2.0 ] },
-																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 1.0, 18.0, 2.0 ] },
-																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 18.0, 1.0, 19.0, 2.0 ] },
-																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 19.0, 1.0, 20.0, 2.0 ] },
-																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 0.0, 17.0, 1.0 ] },
-																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 0.0, 18.0, 1.0 ] }
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 3.0, 1.0, 4.0, 2.0 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.0, 2.0, 1.0 ] }
 																	},
 																	"children": [
 																		{
 																			"name": "Claw4",
 																			"from": [ 1.0, 0.1, 0.1 ],
 																			"to": [ 2.5, 0.9, 1.1 ],
-																			"uv": [ 16.0, 0.0 ],
+																			"uv": [ 0.0, 0.0 ],
 																			"rotationOrigin": [ 1.1, 0.5, 0.6 ],
 																			"rotationZ": -69.0,
 																			"faces": {
-																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 1.0, 17.0, 2.0 ] },
-																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 1.0, 18.0, 2.0 ] },
-																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 18.0, 1.0, 19.0, 2.0 ] },
-																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 19.0, 1.0, 20.0, 2.0 ] },
-																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 0.0, 17.0, 1.0 ] },
-																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 0.0, 18.0, 1.0 ] }
+																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 3.0, 1.0, 4.0, 2.0 ] },
+																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.0, 2.0, 1.0 ] }
 																			}
 																		}
 																	]
@@ -2732,32 +2733,32 @@
 																	"name": "Toe8",
 																	"from": [ 1.0, 0.2, 0.2 ],
 																	"to": [ 2.5, 1.2, 1.4 ],
-																	"uv": [ 16.0, 0.0 ],
+																	"uv": [ 0.0, 0.0 ],
 																	"rotationOrigin": [ 1.5, 0.7, 0.7 ],
 																	"rotationZ": 50.0,
 																	"faces": {
-																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 1.0, 17.0, 2.0 ] },
-																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 1.0, 18.0, 2.0 ] },
-																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 18.0, 1.0, 19.0, 2.0 ] },
-																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 19.0, 1.0, 20.0, 2.0 ] },
-																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 0.0, 17.0, 1.0 ] },
-																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 0.0, 18.0, 1.0 ] }
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 3.0, 1.0, 4.0, 2.0 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.0, 2.0, 1.0 ] }
 																	},
 																	"children": [
 																		{
 																			"name": "Claw5",
 																			"from": [ 1.0, 0.1, 0.1 ],
 																			"to": [ 2.5, 0.9, 1.1 ],
-																			"uv": [ 16.0, 0.0 ],
+																			"uv": [ 0.0, 0.0 ],
 																			"rotationOrigin": [ 1.1, 0.5, 0.6 ],
 																			"rotationZ": -69.0,
 																			"faces": {
-																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 1.0, 17.0, 2.0 ] },
-																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 1.0, 18.0, 2.0 ] },
-																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 18.0, 1.0, 19.0, 2.0 ] },
-																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 19.0, 1.0, 20.0, 2.0 ] },
-																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 0.0, 17.0, 1.0 ] },
-																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 0.0, 18.0, 1.0 ] }
+																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 3.0, 1.0, 4.0, 2.0 ] },
+																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.0, 2.0, 1.0 ] }
 																			}
 																		}
 																	]
@@ -2788,32 +2789,32 @@
 															"name": "Toe16",
 															"from": [ 1.0, 0.2, 0.2 ],
 															"to": [ 2.5, 1.2, 1.4 ],
-															"uv": [ 16.0, 0.0 ],
+															"uv": [ 0.0, 0.0 ],
 															"rotationOrigin": [ 1.5, 0.7, 0.7 ],
 															"rotationZ": 50.0,
 															"faces": {
-																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 1.0, 17.0, 2.0 ] },
-																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 1.0, 18.0, 2.0 ] },
-																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 18.0, 1.0, 19.0, 2.0 ] },
-																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 19.0, 1.0, 20.0, 2.0 ] },
-																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 0.0, 17.0, 1.0 ] },
-																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 0.0, 18.0, 1.0 ] }
+																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 3.0, 1.0, 4.0, 2.0 ] },
+																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.0, 2.0, 1.0 ] }
 															},
 															"children": [
 																{
 																	"name": "Claw21",
 																	"from": [ 1.0, 0.1, 0.1 ],
 																	"to": [ 2.5, 0.9, 1.1 ],
-																	"uv": [ 16.0, 0.0 ],
+																	"uv": [ 0.0, 0.0 ],
 																	"rotationOrigin": [ 1.1, 0.5, 0.6 ],
 																	"rotationZ": -69.0,
 																	"faces": {
-																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 1.0, 17.0, 2.0 ] },
-																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 1.0, 18.0, 2.0 ] },
-																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 18.0, 1.0, 19.0, 2.0 ] },
-																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 19.0, 1.0, 20.0, 2.0 ] },
-																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 0.0, 17.0, 1.0 ] },
-																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 0.0, 18.0, 1.0 ] }
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 3.0, 1.0, 4.0, 2.0 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.0, 2.0, 1.0 ] }
 																	}
 																}
 															]
@@ -2981,32 +2982,32 @@
 																	"name": "Toe10",
 																	"from": [ 1.0, 0.2, 0.2 ],
 																	"to": [ 2.5, 1.2, 1.4 ],
-																	"uv": [ 16.0, 0.0 ],
+																	"uv": [ 0.0, 0.0 ],
 																	"rotationOrigin": [ 1.5, 0.7, 0.7 ],
 																	"rotationZ": 50.0,
 																	"faces": {
-																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 1.0, 17.0, 2.0 ] },
-																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 1.0, 18.0, 2.0 ] },
-																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 18.0, 1.0, 19.0, 2.0 ] },
-																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 19.0, 1.0, 20.0, 2.0 ] },
-																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 0.0, 17.0, 1.0 ] },
-																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 0.0, 18.0, 1.0 ] }
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 3.0, 1.0, 4.0, 2.0 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.0, 2.0, 1.0 ] }
 																	},
 																	"children": [
 																		{
 																			"name": "Claw7",
 																			"from": [ 1.0, 0.1, 0.1 ],
 																			"to": [ 2.5, 0.9, 1.1 ],
-																			"uv": [ 16.0, 0.0 ],
+																			"uv": [ 0.0, 0.0 ],
 																			"rotationOrigin": [ 1.1, 0.5, 0.6 ],
 																			"rotationZ": -69.0,
 																			"faces": {
-																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 1.0, 17.0, 2.0 ] },
-																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 1.0, 18.0, 2.0 ] },
-																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 18.0, 1.0, 19.0, 2.0 ] },
-																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 19.0, 1.0, 20.0, 2.0 ] },
-																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 0.0, 17.0, 1.0 ] },
-																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 0.0, 18.0, 1.0 ] }
+																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 3.0, 1.0, 4.0, 2.0 ] },
+																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.0, 2.0, 1.0 ] }
 																			}
 																		}
 																	]
@@ -3033,32 +3034,32 @@
 																	"name": "Toe12",
 																	"from": [ 1.0, 0.2, 0.2 ],
 																	"to": [ 2.5, 1.2, 1.4 ],
-																	"uv": [ 16.0, 0.0 ],
+																	"uv": [ 0.0, 0.0 ],
 																	"rotationOrigin": [ 1.5, 0.7, 0.7 ],
 																	"rotationZ": 50.0,
 																	"faces": {
-																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 1.0, 17.0, 2.0 ] },
-																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 1.0, 18.0, 2.0 ] },
-																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 18.0, 1.0, 19.0, 2.0 ] },
-																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 19.0, 1.0, 20.0, 2.0 ] },
-																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 0.0, 17.0, 1.0 ] },
-																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 0.0, 18.0, 1.0 ] }
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 3.0, 1.0, 4.0, 2.0 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.0, 2.0, 1.0 ] }
 																	},
 																	"children": [
 																		{
 																			"name": "Claw8",
 																			"from": [ 1.0, 0.1, 0.1 ],
 																			"to": [ 2.5, 0.9, 1.1 ],
-																			"uv": [ 16.0, 0.0 ],
+																			"uv": [ 0.0, 0.0 ],
 																			"rotationOrigin": [ 1.1, 0.5, 0.6 ],
 																			"rotationZ": -69.0,
 																			"faces": {
-																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 1.0, 17.0, 2.0 ] },
-																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 1.0, 18.0, 2.0 ] },
-																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 18.0, 1.0, 19.0, 2.0 ] },
-																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 19.0, 1.0, 20.0, 2.0 ] },
-																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 0.0, 17.0, 1.0 ] },
-																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 0.0, 18.0, 1.0 ] }
+																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 3.0, 1.0, 4.0, 2.0 ] },
+																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.0, 2.0, 1.0 ] }
 																			}
 																		}
 																	]
@@ -3085,32 +3086,32 @@
 																	"name": "Toe18",
 																	"from": [ 1.0, 0.2, 0.2 ],
 																	"to": [ 2.5, 1.2, 1.4 ],
-																	"uv": [ 16.0, 0.0 ],
+																	"uv": [ 0.0, 0.0 ],
 																	"rotationOrigin": [ 1.5, 0.7, 0.7 ],
 																	"rotationZ": 50.0,
 																	"faces": {
-																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 1.0, 17.0, 2.0 ] },
-																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 1.0, 18.0, 2.0 ] },
-																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 18.0, 1.0, 19.0, 2.0 ] },
-																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 19.0, 1.0, 20.0, 2.0 ] },
-																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 0.0, 17.0, 1.0 ] },
-																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 0.0, 18.0, 1.0 ] }
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 3.0, 1.0, 4.0, 2.0 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.0, 2.0, 1.0 ] }
 																	},
 																	"children": [
 																		{
 																			"name": "Claw22",
 																			"from": [ 1.0, 0.1, 0.1 ],
 																			"to": [ 2.5, 0.9, 1.1 ],
-																			"uv": [ 16.0, 0.0 ],
+																			"uv": [ 0.0, 0.0 ],
 																			"rotationOrigin": [ 1.1, 0.5, 0.6 ],
 																			"rotationZ": -69.0,
 																			"faces": {
-																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 1.0, 17.0, 2.0 ] },
-																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 1.0, 18.0, 2.0 ] },
-																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 18.0, 1.0, 19.0, 2.0 ] },
-																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 19.0, 1.0, 20.0, 2.0 ] },
-																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 0.0, 17.0, 1.0 ] },
-																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 0.0, 18.0, 1.0 ] }
+																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 3.0, 1.0, 4.0, 2.0 ] },
+																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.0, 2.0, 1.0 ] }
 																			}
 																		}
 																	]
@@ -3141,32 +3142,32 @@
 															"name": "Toe14",
 															"from": [ 1.0, 0.2, 0.2 ],
 															"to": [ 2.5, 1.2, 1.4 ],
-															"uv": [ 16.0, 0.0 ],
+															"uv": [ 0.0, 0.0 ],
 															"rotationOrigin": [ 1.5, 0.7, 0.7 ],
 															"rotationZ": 50.0,
 															"faces": {
-																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 1.0, 17.0, 2.0 ] },
-																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 1.0, 18.0, 2.0 ] },
-																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 18.0, 1.0, 19.0, 2.0 ] },
-																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 19.0, 1.0, 20.0, 2.0 ] },
-																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 0.0, 17.0, 1.0 ] },
-																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 0.0, 18.0, 1.0 ] }
+																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 3.0, 1.0, 4.0, 2.0 ] },
+																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.0, 2.0, 1.0 ] }
 															},
 															"children": [
 																{
 																	"name": "Claw20",
 																	"from": [ 1.0, 0.1, 0.1 ],
 																	"to": [ 2.5, 0.9, 1.1 ],
-																	"uv": [ 16.0, 0.0 ],
+																	"uv": [ 0.0, 0.0 ],
 																	"rotationOrigin": [ 1.1, 0.5, 0.6 ],
 																	"rotationZ": -69.0,
 																	"faces": {
-																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 1.0, 17.0, 2.0 ] },
-																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 1.0, 18.0, 2.0 ] },
-																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 18.0, 1.0, 19.0, 2.0 ] },
-																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 19.0, 1.0, 20.0, 2.0 ] },
-																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 16.0, 0.0, 17.0, 1.0 ] },
-																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 17.0, 0.0, 18.0, 1.0 ] }
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 1.0, 1.0, 2.0 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 1.0, 2.0, 2.0 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 2.0, 1.0, 3.0, 2.0 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 3.0, 1.0, 4.0, 2.0 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 1.0, 1.0 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.0, 2.0, 1.0 ] }
 																	}
 																}
 															]
