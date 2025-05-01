@@ -25,6 +25,8 @@
 		"*-amtocephale-adult-*":0.6,
 		"*-wannanosaurus-adult-*":0.5,
     },
+    "canClimb": true,
+    "canClimbAnywhere": true,
     "hitBoxSizeByType": {
 			"*-pachycephalosaurus-adult-*": {"x": 1.0,"y": 1.5}, "*-pachycephalosaurus-baby-*": {"x": 0.2,"y": 0.5},
 			"*-platytholus-adult-*": {"x": 0.6,"y": 1.0}, "*-platytholus-baby-*": {"x": 0.1,"y": 0.3},
@@ -44,7 +46,7 @@
 			"*-wannanosaurus-adult-*": {"x": 0.2,"y": 0.3}, "*-wannanosaurus-baby-*": {"x": 0.0,"y": 0.1},
 		},
 
-    "deadhitBoxSizeByType": {"*-adult-*":{	"x": 3,"y": 3},"*-baby-*":{	"x": 1,"y": 1}},
+    "deadhitBoxSizeByType": {"*-adult-*":{	"x": 0.6,"y": 1},"*-baby-*":{	"x": 0.2,"y": 0.2}},
     "eyeHeightByType": {"*":1},
     "weightByType": {"*-adult-*":4000,"*-baby-*":10},
     "knockbackResistanceByType": {"*-adult-*": 2,"*-baby-*": 1	},
@@ -63,10 +65,10 @@
 	"behaviorConfigs": {
 		"rideableaccessories": {
 			"wearableSlots": [
-				{"code": "head", "forCategoryCodes": ["ankylobridle"], "attachmentPointCode": "HeadAP" },
+				{"code": "head", "forCategoryCodes": ["pachybridle"], "attachmentPointCode": "HeadAP" },
 				{"code": "face", "forCategoryCodes": [], "attachmentPointCode": "FaceAP" },
 				{"code": "neck", "forCategoryCodes": [], "attachmentPointCode": "NeckAP" },
-				{"code": "middleback", "forCategoryCodes": ["ankylobsaddle"], "attachmentPointCode": "MidAP", },
+				{"code": "middleback", "forCategoryCodes": ["pachybsaddle"], "attachmentPointCode": "MidAP", },
 			]
 		},
 		"selectionboxes": {
@@ -111,10 +113,13 @@
 				"swim": {
 					"animation": "Swim",
 					"movespeedByType": {
-							"*-adult-*": 0.001,
+							"*-baby-*": 0.004,
+							"*-adult-*": 0.01,
+
 						},
 						"animationSpeedByType": {
-							"*": 0.75
+							"*-baby-*": 1,
+							"*-adult-*": 1,
 						},
 					"weight": 10,
 					"blendMode": "Average",
@@ -146,11 +151,14 @@
 					"animation": "Walk",
 					"weight": 10,
 					"movespeedByType": {
-						"*-adult-*": 0.0045,
-					},
-					"animationSpeedByType": {
-						"*": 1
-					},
+							"*-baby-*": 0.006,
+							"*-adult-*": 0.01,
+
+						},
+						"animationSpeedByType": {
+							"*-baby-*": 1,
+							"*-adult-*": 1,
+						},
 					"blendMode": "Average",
 					"riderAnim": {
 						"animation": "rideelk-walk",
@@ -180,7 +188,7 @@
 					"animation": "Walk",
 					"weight": 10,
 					"movespeedByType": {
-						"*-adult-*": 0.0045,
+						"*-adult-*": 0.01,
 					},
 					"animationSpeedByType": {
 						"*": 1
@@ -213,11 +221,11 @@
 					}
 				},
 				"sprint": {
-					"animation": "Gallop",
+					"animation": "Run",
 					"weight": 10,
 						"priority": 2.1,
 						"movespeedByType": {
-							"*-adult-*": 0.04,
+							"*-adult-*": 0.06,
 
 						},
 						"animationSpeedByType": {
@@ -325,24 +333,25 @@
         },
         "sizeByType": {
 			"*-pachycephalosaurus-adult-male": 1.0,"*-pachycephalosaurus-adult-female": 0.9,"*-pachycephalosaurus-baby-*": 1.0,
-			"*-platytholus-adult-male": 0.62,"*-platytholus-adult-female": 0.5,"*-platytholus-baby-*": 0.62,
-			"*-prenocephale-adult-male": 0.46,"*-prenocephale-adult-female": 0.3,"*-prenocephale-baby-*": 0.46,
-			"*-stegoceras-adult-male": 0.52,"*-stegoceras-adult-female": 0.4,"*-stegoceras-baby-*": 0.52,
-			"*-hanssuesia-adult-male": 0.44,"*-hanssuesia-adult-female": 0.3,"*-hanssuesia-baby-*": 0.44,
-			"*-sinocephale-adult-male": 0.44,"*-sinocephale-adult-female": 0.3,"*-sinocephale-baby-*": 0.44,
-			"*-sphaerotholus-adult-male": 0.42,"*-sphaerotholus-adult-female": 0.3,"*-sphaerotholus-baby-*": 0.42,
-			"*-tylocephale-adult-male": 0.42,"*-tylocephale-adult-female": 0.3,"*-tylocephale-baby-*": 0.42,
-			"*-homalocephale-adult-male": 0.38,"*-homalocephale-adult-female": 0.2,"*-homalocephale-baby-*": 0.38,
-			"*-acrotholus-adult-male": 0.38,"*-acrotholus-adult-female": 0.2,"*-acrotholus-baby-*": 0.38,
-			"*-goyocephale-adult-male": 0.31,"*-goyocephale-adult-female": 0.2,"*-goyocephale-baby-*": 0.31,
-			"*-foraminacephale-adult-male": 0.31,"*-foraminacephale-adult-female": 0.2,"*-foraminacephale-baby-*": 0.31,
-			"*-alaskacephale-adult-male": 0.31,"*-alaskacephale-adult-female": 0.2,"*-alaskacephale-baby-*": 0.31,
-			"*-colepiocephale-adult-male": 0.21,"*-colepiocephale-adult-female": 0.1,"*-colepiocephale-baby-*": 0.21,
-			"*-amtocephale-adult-male": 0.21,"*-amtocephale-adult-female": 0.1,"*-amtocephale-baby-*": 0.21,
-			"*-wannanosaurus-adult-male": 0.12,"*-wannanosaurus-adult-female": 0.0,"*-wannanosaurus-baby-*": 0.12,
+			"*-platytholus-adult-male": 0.62,"*-platytholus-adult-female": 0.52,"*-platytholus-baby-*": 0.62,
+			"*-prenocephale-adult-male": 0.46,"*-prenocephale-adult-female": 0.36,"*-prenocephale-baby-*": 0.46,
+			"*-stegoceras-adult-male": 0.52,"*-stegoceras-adult-female": 0.42,"*-stegoceras-baby-*": 0.52,
+			"*-hanssuesia-adult-male": 0.44,"*-hanssuesia-adult-female": 0.34,"*-hanssuesia-baby-*": 0.44,
+			"*-sinocephale-adult-male": 0.44,"*-sinocephale-adult-female": 0.34,"*-sinocephale-baby-*": 0.44,
+			"*-sphaerotholus-adult-male": 0.42,"*-sphaerotholus-adult-female": 0.32,"*-sphaerotholus-baby-*": 0.44,
+			"*-tylocephale-adult-male": 0.42,"*-tylocephale-adult-female": 0.32,"*-tylocephale-baby-*": 0.44,
+			"*-homalocephale-adult-male": 0.38,"*-homalocephale-adult-female": 0.28,"*-homalocephale-baby-*": 0.44,
+			"*-acrotholus-adult-male": 0.38,"*-acrotholus-adult-female": 0.28,"*-acrotholus-baby-*": 0.44,
+			"*-goyocephale-adult-male": 0.31,"*-goyocephale-adult-female": 0.28,"*-goyocephale-baby-*": 0.44,
+			"*-foraminacephale-adult-male": 0.31,"*-foraminacephale-adult-female": 0.21,"*-foraminacephale-baby-*": 0.44,
+			"*-alaskacephale-adult-male": 0.31,"*-alaskacephale-adult-female": 0.21,"*-alaskacephale-baby-*": 0.44,
+			"*-colepiocephale-adult-male": 0.21,"*-colepiocephale-adult-female": 0.15,"*-colepiocephale-baby-*": 0.44,
+			"*-amtocephale-adult-male": 0.21,"*-amtocephale-adult-female": 0.15,"*-amtocephale-baby-*": 0.44,
+			"*-wannanosaurus-adult-male": 0.18,"*-wannanosaurus-adult-female": 0.12,"*-wannanosaurus-baby-*": 0.24,
 		},
 
         "behaviors": [
+			{"code": "rideable", "enabledByType": {  "*-baby-*": false,"*-pachycephalosaurus-*": true, "*": false},"minGeneration": 3 },
             {"code": "repulseagents" },
 			{"code": "controlledphysics","stepHeight": 1.1251},
 			{"code": "floatupwhenstuck","onlyWhenDead": true},
@@ -351,10 +360,9 @@
 			{"code": "multiply", "enabledByType": { "*-adult-female": true, "*": false } },
 			{"code": "despawn","minPlayerDistance": 8,"belowLightLevel": 8,"minSeconds": 300},
 			{"code": "ropetieable","minGeneration": 2},
-			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false,"*-struthiosaurus-*": false, "*": true},"minGeneration": 3 },
-			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*-struthiosaurus-*": false,"*": true},"minGeneration": 3 },
-			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false,"*-struthiosaurus-*": false, "*": true},"minGeneration": 3 },
-			{"code": "rideable", "enabledByType": {  "*-baby-*": false,"*-struthiosaurus-*": false, "*": true},"minGeneration": 3 },
+			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false,"*-pachycephalosaurus-*": true, "*": false},"minGeneration": 3 },
+			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*-pachycephalosaurus-*": true,"*": false},"minGeneration": 3 },
+			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false,"*-pachycephalosaurus-*": true, "*": false},"minGeneration": 3 },
         ],
         "animations": [
 			{"code": "attack","animation": "Attack","animationSpeed": 1.2,"weight": 10,"blendMode": "AddAverage"},
@@ -377,10 +385,10 @@
     "server": {
 		"attributes": {"pathfinder": {"minTurnAnglePerSec": 350,"maxTurnAnglePerSec": 650}},
         "behaviors": [
-			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false,"*-struthiosaurus-*": false, "*": true},"minGeneration": 3 },
-			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*-struthiosaurus-*": false,"*": true},"minGeneration": 3 },
-			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false,"*-struthiosaurus-*": false, "*": true},"minGeneration": 3 },
-			{"code": "rideable", "enabledByType": {  "*-baby-*": false,"*-struthiosaurus-*": false, "*": true},"minGeneration": 3 },
+			{"code": "rideable", "enabledByType": {  "*-baby-*": false,"*-pachycephalosaurus-*": true, "*": false},"minGeneration": 3 },
+			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false,"*-pachycephalosaurus-*": true, "*": false},"minGeneration": 3 },
+			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*-pachycephalosaurus-*": true,"*": false},"minGeneration": 3 },
+			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false,"*-pachycephalosaurus-*": true, "*": false},"minGeneration": 3 },
             {"code": "repulseagents" },
             {"code": "controlledphysics","stepHeight": 1.1251},
             {"code": "despawn","minPlayerDistance": 8,"belowLightLevel": 8,"minSeconds": 300},
@@ -388,14 +396,22 @@
             {"code": "breathe"},
             {"code": "health",
                     "maxhealthByType": {
-                        "*-ankylosaurus-adult-male": 400,"*-ankylosaurus-adult-female": 390,"*-ankylosaurus-baby-*": 20,
-                        "*-tarchia-adult-male": 390,"*-tarchia-adult-female": 380,"*-tarchia-baby-*": 18,
-						"*-euoplocephalus-adult-male": 350,"*-euoplocephalus-adult-female": 350,"*-euoplocephalus-baby-*": 15,
-						"*-edmontonia-adult-male": 350,"*-edmontonia-adult-female": 350,"*-edmontonia-baby-*": 15,
-						"*-ziapelta-adult-male": 275,"*-ziapelta-adult-female": 265,"*-ziapelta-baby-*": 12,
-						"*-pinacosaurus-adult-male": 275,"*-pinacosaurus-adult-female": 265,"*-pinacosaurus-baby-*": 12,
-						"*-antarctopelta-adult-male": 250,"*-antarctopelta-adult-female": 240,"*-antarctopelta-baby-*": 10,
-						"*-struthiosaurus-adult-male": 200,"*-struthiosaurus-adult-female": 190,"*-struthiosaurus-baby-*": 7,
+                        "*-pachycephalosaurus-adult-male": 55.0,"*-pachycephalosaurus-adult-female": 51.0,"*-pachycephalosaurus-baby-*": 4.0,
+						"*-platytholus-adult-male": 36.0,"*-platytholus-adult-female": 31.0,"*-platytholus-baby-*": 3.0,
+						"*-prenocephale-adult-male": 28.0,"*-prenocephale-adult-female": 21.0,"*-prenocephale-baby-*": 2.0,
+						"*-stegoceras-adult-male": 31.0,"*-stegoceras-adult-female": 26.0,"*-stegoceras-baby-*": 2.0,
+						"*-hanssuesia-adult-male": 27.0,"*-hanssuesia-adult-female": 21.0,"*-hanssuesia-baby-*": 2.0,
+						"*-sinocephale-adult-male": 27.0,"*-sinocephale-adult-female": 21.0,"*-sinocephale-baby-*": 2.0,
+						"*-sphaerotholus-adult-male": 26.0,"*-sphaerotholus-adult-female": 21.0,"*-sphaerotholus-baby-*": 2.0,
+						"*-tylocephale-adult-male": 26.0,"*-tylocephale-adult-female": 21.0,"*-tylocephale-baby-*": 2.0,
+						"*-homalocephale-adult-male": 24.0,"*-homalocephale-adult-female": 16.0,"*-homalocephale-baby-*": 2.0,
+						"*-acrotholus-adult-male": 24.0,"*-acrotholus-adult-female": 16.0,"*-acrotholus-baby-*": 2.0,
+						"*-goyocephale-adult-male": 21.0,"*-goyocephale-adult-female": 16.0,"*-goyocephale-baby-*": 2.0,
+						"*-foraminacephale-adult-male": 21.0,"*-foraminacephale-adult-female": 16.0,"*-foraminacephale-baby-*": 2.0,
+						"*-alaskacephale-adult-male": 21.0,"*-alaskacephale-adult-female": 16.0,"*-alaskacephale-baby-*": 2.0,
+						"*-colepiocephale-adult-male": 16.0,"*-colepiocephale-adult-female": 11.0,"*-colepiocephale-baby-*": 1.0,
+						"*-amtocephale-adult-male": 16.0,"*-amtocephale-adult-female": 11.0,"*-amtocephale-baby-*": 1.0,
+						"*-wannanosaurus-adult-male": 11.0,"*-wannanosaurus-adult-female": 6.0,"*-wannanosaurus-baby-*": 1.0,
                     }
 			},
             {"code": "deaddecay",
@@ -412,49 +428,82 @@
 						"type": "item",
 						"code": "game:redmeat-raw",
 						"quantityByType": {
-							"*-ankylosaurus-adult-*": {"avg": 50,"var": 10}, "*-ankylosaurus-baby-*": {"avg": 5,"var": 3},
-							"*-tarchia-adult-*": {"avg": 45,"var": 10}, "*-tarchia-baby-*": {"avg": 5,"var": 3},
-							"*-euoplocephalus-adult-*": {"avg": 40,"var": 10}, "*-euoplocephalus-baby-*": {"avg": 4,"var": 3},
-							"*-edmontonia-adult-*": {"avg": 40,"var": 10}, "*-edmontonia-baby-*": {"avg": 4,"var": 3},
-							"*-ziapelta-adult-*": {"avg": 30,"var": 10}, "*-ziapelta-baby-*": {"avg": 3,"var": 3},
-							"*-pinacosaurus-adult-*": {"avg": 30,"var": 10}, "*-pinacosaurus-baby-*": {"avg": 3,"var": 3},
-							"*-antarctopelta-adult-*": {"avg": 25,"var": 10}, "*-antarctopelta-baby-*": {"avg": 2.5,"var": 3},
-							"*-struthiosaurus-adult-*": {"avg": 10,"var": 10}, "*-struthiosaurus-baby-*": {"avg": 1,"var": 3},
+							"*-pachycephalosaurus-adult-*": {"avg": 13.0,"var": 2}, "*-pachycephalosaurus-baby-*": {"avg": 2.0,"var": 1},
+							"*-platytholus-adult-*": {"avg": 9.0,"var": 2}, "*-platytholus-baby-*": {"avg": 1.0,"var": 1},
+							"*-prenocephale-adult-*": {"avg": 7.0,"var": 2}, "*-prenocephale-baby-*": {"avg": 1.0,"var": 1},
+							"*-stegoceras-adult-*": {"avg": 7.0,"var": 2}, "*-stegoceras-baby-*": {"avg": 1.0,"var": 1},
+							"*-hanssuesia-adult-*": {"avg": 6.0,"var": 2}, "*-hanssuesia-baby-*": {"avg": 1.0,"var": 1},
+							"*-sinocephale-adult-*": {"avg": 6.0,"var": 2}, "*-sinocephale-baby-*": {"avg": 1.0,"var": 1},
+							"*-sphaerotholus-adult-*": {"avg": 6.0,"var": 2}, "*-sphaerotholus-baby-*": {"avg": 1.0,"var": 1},
+							"*-tylocephale-adult-*": {"avg": 6.0,"var": 2}, "*-tylocephale-baby-*": {"avg": 1.0,"var": 1},
+							"*-homalocephale-adult-*": {"avg": 6.0,"var": 2}, "*-homalocephale-baby-*": {"avg": 1.0,"var": 1},
+							"*-acrotholus-adult-*": {"avg": 6.0,"var": 2}, "*-acrotholus-baby-*": {"avg": 1.0,"var": 1},
+							"*-goyocephale-adult-*": {"avg": 5.0,"var": 2}, "*-goyocephale-baby-*": {"avg": 1.0,"var": 1},
+							"*-foraminacephale-adult-*": {"avg": 5.0,"var": 2}, "*-foraminacephale-baby-*": {"avg": 1.0,"var": 1},
+							"*-alaskacephale-adult-*": {"avg": 5.0,"var": 2}, "*-alaskacephale-baby-*": {"avg": 1.0,"var": 1},
+							"*-colepiocephale-adult-*": {"avg": 4.0,"var": 2}, "*-colepiocephale-baby-*": {"avg": 1.0,"var": 1},
+							"*-amtocephale-adult-*": {"avg": 4.0,"var": 2}, "*-amtocephale-baby-*": {"avg": 1.0,"var": 1},
+							"*-wannanosaurus-adult-*": {"avg": 3.0,"var": 2}, "*-wannanosaurus-baby-*": {"avg": 1.0,"var": 1},
+							"*": {"avg": 0.0,"var": 0.0}
 						}
 					},
 					{
 						"type": "item",
 						"code": "game:fat",
 						"quantityByType": {
-							"*-ankylosaurus-adult-*": {"avg": 25,"var": 5}, "*-ankylosaurus-baby-*": {"avg": 2,"var": 3},
-							"*-tarchia-adult-*": {"avg": 20,"var": 10}, "*-tarchia-baby-*": {"avg": 2,"var": 3},
-							"*-euoplocephalus-adult-*": {"avg": 15,"var": 10}, "*-euoplocephalus-baby-*": {"avg": 2,"var": 3},
-							"*-edmontonia-adult-*": {"avg": 15,"var": 10}, "*-edmontonia-baby-*": {"avg": 4,"var": 2},
-							"*-ziapelta-adult-*": {"avg": 10,"var": 10}, "*-ziapelta-baby-*": {"avg": 2,"var": 3},
-							"*-pinacosaurus-adult-*": {"avg": 10,"var": 10}, "*-pinacosaurus-baby-*": {"avg": 2,"var": 3},
-							"*-antarctopelta-adult-*": {"avg": 8,"var": 10}, "*-antarctopelta-baby-*": {"avg": 2,"var": 3},
-							"*-struthiosaurus-adult-*": {"avg": 4,"var": 10}, "*-struthiosaurus-baby-*": {"avg": 1,"var": 3},
+							"*-pachycephalosaurus-adult-*": {"avg": 6.0,"var": 2}, "*-pachycephalosaurus-baby-*": {"avg": 0,"var": 0},
+							"*-platytholus-adult-*": {"avg": 4.0,"var": 2}, "*-platytholus-baby-*": {"avg": 0,"var": 0},
+							"*-prenocephale-adult-*": {"avg": 3.0,"var": 2}, "*-prenocephale-baby-*": {"avg": 0,"var": 0},
+							"*-stegoceras-adult-*": {"avg": 3.0,"var": 2}, "*-stegoceras-baby-*": {"avg": 0,"var": 0},
+							"*-hanssuesia-adult-*": {"avg": 3.0,"var": 2}, "*-hanssuesia-baby-*": {"avg": 0,"var": 0},
+							"*-sinocephale-adult-*": {"avg": 3.0,"var": 2}, "*-sinocephale-baby-*": {"avg": 0,"var": 0},
+							"*-sphaerotholus-adult-*": {"avg": 3.0,"var": 2}, "*-sphaerotholus-baby-*": {"avg": 0,"var": 0},
+							"*-tylocephale-adult-*": {"avg": 3.0,"var": 2}, "*-tylocephale-baby-*": {"avg": 0,"var": 0},
+							"*-homalocephale-adult-*": {"avg": 3.0,"var": 2}, "*-homalocephale-baby-*": {"avg": 0,"var": 0},
+							"*-acrotholus-adult-*": {"avg": 3.0,"var": 2}, "*-acrotholus-baby-*": {"avg": 0,"var": 0},
+							"*-goyocephale-adult-*": {"avg": 2.0,"var": 2}, "*-goyocephale-baby-*": {"avg": 0,"var": 0},
+							"*-foraminacephale-adult-*": {"avg": 2.0,"var": 2}, "*-foraminacephale-baby-*": {"avg": 0,"var": 0},
+							"*-alaskacephale-adult-*": {"avg": 2.0,"var": 2}, "*-alaskacephale-baby-*": {"avg": 0,"var": 0},
+							"*-colepiocephale-adult-*": {"avg": 2.0,"var": 2}, "*-colepiocephale-baby-*": {"avg": 0,"var": 0},
+							"*-amtocephale-adult-*": {"avg": 2.0,"var": 2}, "*-amtocephale-baby-*": {"avg": 0,"var": 0},
+							"*-wannanosaurus-adult-*": {"avg": 1.0,"var": 2}, "*-wannanosaurus-baby-*": {"avg": 0,"var": 0},
+							"*": {"avg": 0.0,"var": 0.0}
 						}
 					},
 					{
 						"type": "item",
 						"code": "game:hide-raw-huge",
 						"quantityByType": {
-							"*-ankylosaurus-adult-*": {"avg": 3,"var": 0}, "*-ankylosaurus-baby-*": {"avg": 0,"var": 0},
-							"*-tarchia-adult-*": {"avg": 3,"var": 0}, "*-tarchia-baby-*": {"avg": 0,"var": 0},
-							"*-euoplocephalus-adult-*": {"avg": 3,"var": 0}, "*-euoplocephalus-baby-*": {"avg": 0,"var": 0},
-							"*-edmontonia-adult-*": {"avg": 3,"var": 0}, "*-edmontonia-baby-*": {"avg": 0,"var": 0},
-							"*-ziapelta-adult-*": {"avg": 3,"var": 0}, "*-ziapelta-baby-*": {"avg": 0,"var": 0},
-							"*-pinacosaurus-adult-*": {"avg": 2,"var": 0}, "*-pinacosaurus-baby-*": {"avg": 0,"var": 0},
-							"*-antarctopelta-adult-*": {"avg": 2,"var": 0}, "*-antarctopelta-baby-*": {"avg": 0,"var": 0},
-							"*-struthiosaurus-adult-*": {"avg": 1,"var": 0}, "*-struthiosaurus-baby-*": {"avg": 0,"var": 0},
+							"*-pachycephalosaurus-adult-*": {"avg": 1.0,"var": 0},
+							"*": {"avg": 0.0,"var": 0.0}
 						}
 					},
 					{
 						"type": "item",
 						"code": "game:hide-raw-medium",
 						"quantityByType": {
-							"*-baby": {"avg": 1.0,"var": 0.0},
+							"*-platytholus-adult-*": {"avg": 1.0,"var": 0},
+							"*-stegoceras-adult-*": {"avg": 1.0,"var": 0},
+							"*": {"avg": 0.0,"var": 0.0}
+						}
+					},
+					{
+						"type": "item",
+						"code": "game:hide-raw-small",
+						"quantityByType": {
+							"*-prenocephale-adult-*": {"avg": 1.0,"var": 0},
+							"*-hanssuesia-adult-*": {"avg": 1.0,"var": 0},
+							"*-sinocephale-adult-*": {"avg": 1.0,"var": 0},
+							"*-sphaerotholus-adult-*": {"avg": 1.0,"var": 0},
+							"*-tylocephale-adult-*": {"avg": 1.0,"var": 0},
+							"*-homalocephale-adult-*": {"avg": 1.0,"var": 0},
+							"*-acrotholus-adult-*": {"avg": 1.0,"var": 0},
+							"*-goyocephale-adult-*": {"avg": 1.0,"var": 0},
+							"*-foraminacephale-adult-*": {"avg": 1.0,"var": 0},
+							"*-alaskacephale-adult-*": {"avg": 1.0,"var": 0},
+							"*-colepiocephale-adult-*": {"avg": 1.0,"var": 0},
+							"*-amtocephale-adult-*": {"avg": 1.0,"var": 0},
+							"*-wannanosaurus-adult-*": {"avg": 1.0,"var": 0},
 							"*": {"avg": 0.0,"var": 0.0}
 						}
 					}
@@ -469,21 +518,29 @@
 					"*": [ { "code":"pachycephalosauria:pachycephalosauria-{type}-egg-raw"}]},
 				"requiresNearbyEntityCodeByType": {"*": "pachycephalosauria:pachycephalosauria-{type}-adult-male"},
 				"eatAnyway": true,
-				"requiresNearbyEntityRange": 20,
+				"requiresNearbyEntityRange": 10,
 				"spawnQuantityMin": 6,
 				"spawnQuantityMaxByType": {"*": 12},
 				"pregnancyDaysByType": {"*": 30},
 				"multiplyCooldownDaysMinByType": {"*": 30},
 				"multiplyCooldownDaysMaxByType": {"*": 60},
 				"portionsEatenForMultiplyByType": {
-					"*-ankylosaurus-adult-male": 50,
-					"*-tarchia-adult-male": 48,
-					"*-euoplocephalus-adult-male": 40,
-					"*-edmontonia-adult-male": 40,
-					"*-ziapelta-adult-male": 35,
-					"*-pinacosaurus-adult-male": 35,
-					"*-antarctopelta-adult-male": 33,
-					"*-struthiosaurus-adult-male": 20,
+					"*-pachycephalosaurus-adult-*":35.0,
+					"*-platytholus-adult-*":26.0,
+					"*-prenocephale-adult-*":22.0,
+					"*-stegoceras-adult-*":24.0,
+					"*-hanssuesia-adult-*":22.0,
+					"*-sinocephale-adult-*":22.0,
+					"*-sphaerotholus-adult-*":21.0,
+					"*-tylocephale-adult-*":21.0,
+					"*-homalocephale-adult-*":21.0,
+					"*-acrotholus-adult-*":21.0,
+					"*-goyocephale-adult-*":19.0,
+					"*-foraminacephale-adult-*":19.0,
+					"*-alaskacephale-adult-*":19.0,
+					"*-colepiocephale-adult-*":17.0,
+					"*-amtocephale-adult-*":17.0,
+					"*-wannanosaurus-adult-*":14.0,
 				}
 			},
             {"code": "grow",
@@ -492,14 +549,22 @@
 					"*": false
 				},
 				"hoursToGrowByType": {"*": 720,
-					"*-ankylosaurus-adult-male": 720,
-					"*-tarchia-adult-male": 684,
-					"*-euoplocephalus-adult-male": 576,
-					"*-edmontonia-adult-male": 576,
-					"*-ziapelta-adult-male": 504,
-					"*-pinacosaurus-adult-male": 504,
-					"*-antarctopelta-adult-male": 468,
-					"*-struthiosaurus-adult-male": 288,
+					"*-pachycephalosaurus-*":250.0,
+					"*-platytholus-*":155.0,
+					"*-prenocephale-*":115.0,
+					"*-stegoceras-*":130.0,
+					"*-hanssuesia-*":110.0,
+					"*-sinocephale-*":110.0,
+					"*-sphaerotholus-*":105.0,
+					"*-tylocephale-*":105.0,
+					"*-homalocephale-*":95.0,
+					"*-acrotholus-*":95.0,
+					"*-goyocephale-*":78.0,
+					"*-foraminacephale-*":78.0,
+					"*-alaskacephale-*":78.0,
+					"*-colepiocephale-*":52.0,
+					"*-amtocephale-*":52.0,
+					"*-wannanosaurus-*":30.0,
 				},
 				"adultEntityCodesByType": {
 					"*-baby-male": ["pachycephalosauria:pachycephalosauria-{type}-adult-male"],
@@ -514,8 +579,8 @@
 							"*-baby-*": 0.5
 						},
 						"slot": 2,"priority": 3,"accumType": "noaccum"},
-					{"code": "fleeondamage","duration": 60,"slot": 1,"chanceByType": {"*-adult-*": 1,"*-baby-*": 0},"priority": 2,"accumType": "max","whenHealthRelBelow": 0.4},
-					{"code": "fleeondamage","duration": 30,"slot": 1,"chanceByType": {"*-adult-*": 0,"*-baby-*": 1},"priority": 0.75,"accumType": "max","whenHealthRelBelow": 0.5},
+					{"code": "fleeondamage","duration": 60,"slot": 1,"chanceByType": {"*-adult-*": 1,"*-baby-*": 0},"priority": 2,"accumType": "max","whenHealthRelBelow": 0.5},
+					{"code": "fleeondamage","duration": 30,"slot": 1,"chanceByType": {"*-adult-*": 0,"*-baby-*": 1},"priority": 0.75,"accumType": "max","whenHealthRelBelow": 0.8},
 					{"code": "saturated","duration": 1200,"chance": 1,"slot": 0,"priority": 1,"accumType": "sum"},
 					{ "code": "aggressivearoundentities", "duration": 60, "chanceByType": {"*-baby-*": 0.0,"*-adult-*": 1.0}, "slot": 2, "priority": 5, "entityCodes": ["pachycephalosauria:pachycephalosauria-{type}-baby-male","pachycephalosauria:pachycephalosauria-{type}-baby-female"], "maxGeneration": 1 }
 				]
@@ -524,47 +589,44 @@
 				"code": "taskai",
 				"aiCreatureType": "LandCreature",
 				"aitasks": [
-                    {
+                     {
 						"code": "meleeattack",
 						"animation": "Attack",
 						"enabledByType": {
 							"*": true},
 						"entityCodesByType": {
-							"*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",]},
+							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*","hitch",],
+							"*": ["bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
+							},
 						"priority": 1.9,
 						"slot": 1,
 						"damageByType": {
-							"*-ankylosaurus-adult-male": 20,"*-ankylosaurus-adult-female": 19,"*-ankylosaurus-baby-*": 4,
-							"*-tarchia-adult-male": 19.5,"*-tarchia-adult-female": 18.5,"*-tarchia-baby-*": 3.5,
-							"*-euoplocephalus-adult-male": 17,"*-euoplocephalus-adult-female": 16,"*-euoplocephalus-baby-*": 3,
-							"*-edmontonia-adult-male": 17,"*-edmontonia-adult-female": 16,"*-edmontonia-baby-*": 3,
-							"*-ziapelta-adult-male": 15,"*-ziapelta-adult-female": 14,"*-ziapelta-baby-*": 2.5,
-							"*-pinacosaurus-adult-male": 15,"*-pinacosaurus-adult-female": 14,"*-pinacosaurus-baby-*": 2.5,
-							"*-antarctopelta-adult-male": 13,"*-antarctopelta-adult-female": 12,"*-antarctopelta-baby-*": 2,
-							"*-struthiosaurus-adult-male": 10,"*-struthiosaurus-adult-female": 9,"*-struthiosaurus-baby-*": 1,
+							"*-pachycephalosaurus-adult-male": 10.0,"*-pachycephalosaurus-adult-female": 9.6,"*-pachycephalosaurus-baby-*": 2.0,
+							"*-platytholus-adult-male": 8.5,"*-platytholus-adult-female": 8.1,"*-platytholus-baby-*": 1.7,
+							"*-prenocephale-adult-male": 7.8,"*-prenocephale-adult-female": 7.4,"*-prenocephale-baby-*": 1.6,
+							"*-stegoceras-adult-male": 8.1,"*-stegoceras-adult-female": 7.7,"*-stegoceras-baby-*": 1.6,
+							"*-hanssuesia-adult-male": 7.8,"*-hanssuesia-adult-female": 7.4,"*-hanssuesia-baby-*": 1.6,
+							"*-sinocephale-adult-male": 7.8,"*-sinocephale-adult-female": 7.4,"*-sinocephale-baby-*": 1.6,
+							"*-sphaerotholus-adult-male": 7.7,"*-sphaerotholus-adult-female": 7.3,"*-sphaerotholus-baby-*": 1.5,
+							"*-tylocephale-adult-male": 7.7,"*-tylocephale-adult-female": 7.3,"*-tylocephale-baby-*": 1.5,
+							"*-homalocephale-adult-male": 7.5,"*-homalocephale-adult-female": 7.1,"*-homalocephale-baby-*": 1.5,
+							"*-acrotholus-adult-male": 7.5,"*-acrotholus-adult-female": 7.1,"*-acrotholus-baby-*": 1.5,
+							"*-goyocephale-adult-male": 7.2,"*-goyocephale-adult-female": 6.8,"*-goyocephale-baby-*": 1.4,
+							"*-foraminacephale-adult-male": 7.2,"*-foraminacephale-adult-female": 6.8,"*-foraminacephale-baby-*": 1.4,
+							"*-alaskacephale-adult-male": 7.2,"*-alaskacephale-adult-female": 6.8,"*-alaskacephale-baby-*": 1.4,
+							"*-colepiocephale-adult-male": 6.8,"*-colepiocephale-adult-female": 6.4,"*-colepiocephale-baby-*": 1.4,
+							"*-amtocephale-adult-male": 6.8,"*-amtocephale-adult-female": 6.4,"*-amtocephale-baby-*": 1.4,
+							"*-wannanosaurus-adult-male": 6.5,"*-wannanosaurus-adult-female": 6.1,"*-wannanosaurus-baby-*": 1.3,
 
 						},
 						"knockbackStrengthByType": {
 							"*-baby-*":0.0,
-							"*-ankylosaurus-adult-*": 3,
-							"*-tarchia-adult-*": 3,
-							"*-euoplocephalus-adult-*": 2.5,
-							"*-edmontonia-adult-*": 2.5,
-							"*-ziapelta-adult-*": 2,
-							"*-pinacosaurus-adult-*": 2,
-							"*-antarctopelta-adult-*": 2,
-							"*-struthiosaurus-adult-*": 1,
+							"*-pachycephalosaurus-adult-*": 3.0,
+							"*":2.5,
 						},
 						"damageTierByType": {
 							"*-baby-*":1,
-							"*-ankylosaurus-adult-*": 5,
-							"*-tarchia-adult-*": 5,
-							"*-euoplocephalus-adult-*": 4,
-							"*-edmontonia-adult-*": 4,
-							"*-ziapelta-adult-*": 3,
-							"*-pinacosaurus-adult-*": 3,
-							"*-antarctopelta-adult-*": 2,
-							"*-struthiosaurus-adult-*": 2,
+							"*-adult-*": 2,
 						},
 						"attackAngleRangeDeg": 120,
 						"mincooldown": 1250,
@@ -580,16 +642,48 @@
 					{
 						"code": "seekentity",
 						"animation": "Charge",
+						"enabledByType": {"*-baby-*": false,"*-adult-*": true},
 						"entityCodesByType": {
-							"*-adult-*": [ "bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
+							"*-pachycephalosaurus-*": [ "bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*",
+
+							"dromaeosauridae-*",
+							"abelisauridae-viavenator-adult-*","abelisauridae-tarascosaurus-adult-*","abelisauridae-thanos-adult-*",
+
+							"tyrannosauridae-tyrannosaurus-baby-*","tyrannosauridae-tarbosaurus-baby-*","tyrannosauridae-nanuqsaurus-baby-*","tyrannosauridae-albertosaurus-baby-*","tyrannosauridae-gorgosaurus-baby-*","tyrannosauridae-alioramus-baby-*","tyrannosauridae-qianzhousaurus-baby-*","tyrannosauridae-zhuchengtyrannus-baby-*","tyrannosauridae-bistahieversor-baby-*","tyrannosauridae-thanatotheristes-baby-*","tyrannosauridae-teratophoneus-baby-*","tyrannosauridae-dynamoterror-baby-*",
+
+							],
+							"*-adult-*": ["bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*",
+
+							"dromaeosauridae-dromaeosaurus-adult-*","dromaeosauridae-adasaurus-adult-*","dromaeosauridae-velociraptor-adult-*","dromaeosauridae-saurornitholestes-adult-*","dromaeosauridae-atrociraptor-adult-*","dromaeosauridae-pyroraptor-adult-*","dromaeosauridae-buitreraptor-adult-*","dromaeosauridae-microraptor-adult-*","dromaeosauridae-rahonavis-adult-*",
+
+							"dromaeosauridae-utahraptor-baby-*","dromaeosauridae-dakotaraptor-baby-*","dromaeosauridae-achillobator-baby-*","dromaeosauridae-austroraptor-baby-*","dromaeosauridae-deinonychus-baby-*","dromaeosauridae-dromaeosaurus-baby-*","dromaeosauridae-adasaurus-baby-*","dromaeosauridae-velociraptor-baby-*","dromaeosauridae-saurornitholestes-baby-*","dromaeosauridae-atrociraptor-baby-*","dromaeosauridae-pyroraptor-baby-*","dromaeosauridae-buitreraptor-baby-*","dromaeosauridae-microraptor-baby-*","dromaeosauridae-rahonavis-baby-*",
+
+							"tyrannosauridae-tyrannosaurus-baby-*","tyrannosauridae-tarbosaurus-baby-*","tyrannosauridae-nanuqsaurus-baby-*","tyrannosauridae-albertosaurus-baby-*","tyrannosauridae-gorgosaurus-baby-*","tyrannosauridae-alioramus-baby-*","tyrannosauridae-qianzhousaurus-baby-*","tyrannosauridae-zhuchengtyrannus-baby-*","tyrannosauridae-bistahieversor-baby-*","tyrannosauridae-thanatotheristes-baby-*","tyrannosauridae-teratophoneus-baby-*","tyrannosauridae-dynamoterror-baby-*",
+
+							],
 						},
 						"priority": 1.82,
 						"mincooldown": 600,
 						"maxcooldown": 650,
 						"seekingRange": 15,
 						"movespeedByType": {
-							"*-adult-*": 0.035,
 							"*-baby-*": 0.010,
+							"*-pachycephalosaurus-adult-*":0.06,
+							"*-platytholus-adult-*":0.0524,
+							"*-prenocephale-adult-*":0.0492,
+							"*-stegoceras-adult-*":0.0504,
+							"*-hanssuesia-adult-*":0.0488,
+							"*-sinocephale-adult-*":0.0488,
+							"*-sphaerotholus-adult-*":0.0484,
+							"*-tylocephale-adult-*":0.0484,
+							"*-homalocephale-adult-*":0.0476,
+							"*-acrotholus-adult-*":0.0476,
+							"*-goyocephale-adult-*":0.0462,
+							"*-foraminacephale-adult-*":0.0462,
+							"*-alaskacephale-adult-*":0.0462,
+							"*-colepiocephale-adult-*":0.0442,
+							"*-amtocephale-adult-*":0.0442,
+							"*-wannanosaurus-adult-*":0.0424,
 						},
 						"animationSpeedByType": {
 							"*-baby-*": 3,
@@ -600,16 +694,32 @@
 					{
 						"code": "seekentity",
 						"animation": "Charge",
+						"enabledByType": {"*-baby-*": false,"*-adult-*": true},
 						"entityCodesByType": {
-							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
+							"*-adult-*": [ "player"],
 						},
 						"priority": 1.82,
 						"mincooldown": 600,
 						"maxcooldown": 650,
-						"seekingRange": 4,
+						"seekingRange": 2,
 						"movespeedByType": {
-							"*-adult-*": 0.035,
 							"*-baby-*": 0.010,
+							"*-pachycephalosaurus-adult-*":0.06,
+							"*-platytholus-adult-*":0.0524,
+							"*-prenocephale-adult-*":0.0492,
+							"*-stegoceras-adult-*":0.0504,
+							"*-hanssuesia-adult-*":0.0488,
+							"*-sinocephale-adult-*":0.0488,
+							"*-sphaerotholus-adult-*":0.0484,
+							"*-tylocephale-adult-*":0.0484,
+							"*-homalocephale-adult-*":0.0476,
+							"*-acrotholus-adult-*":0.0476,
+							"*-goyocephale-adult-*":0.0462,
+							"*-foraminacephale-adult-*":0.0462,
+							"*-alaskacephale-adult-*":0.0462,
+							"*-colepiocephale-adult-*":0.0442,
+							"*-amtocephale-adult-*":0.0442,
+							"*-wannanosaurus-adult-*":0.0424,
 						},
 						"animationSpeedByType": {
 							"*-baby-*": 3,
@@ -624,25 +734,35 @@
 							"*-baby-*": false,
 							"*": true},
 						"entityCodesByType": {
-							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",]
+							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",]
 						},
 						"priority": 1.84,
 						"mincooldown": 6000,
 						"maxcooldown": 6500,
 						"seekingRange": 20,
 						"movespeedByType": {
-							"*-adult-*": 0.035,
-							"*-baby-*": 0.01,
+							"*-baby-*": 0.010,
+							"*-pachycephalosaurus-adult-*":0.06,
+							"*-platytholus-adult-*":0.0524,
+							"*-prenocephale-adult-*":0.0492,
+							"*-stegoceras-adult-*":0.0504,
+							"*-hanssuesia-adult-*":0.0488,
+							"*-sinocephale-adult-*":0.0488,
+							"*-sphaerotholus-adult-*":0.0484,
+							"*-tylocephale-adult-*":0.0484,
+							"*-homalocephale-adult-*":0.0476,
+							"*-acrotholus-adult-*":0.0476,
+							"*-goyocephale-adult-*":0.0462,
+							"*-foraminacephale-adult-*":0.0462,
+							"*-alaskacephale-adult-*":0.0462,
+							"*-colepiocephale-adult-*":0.0442,
+							"*-amtocephale-adult-*":0.0442,
+							"*-wannanosaurus-adult-*":0.0424,
 						},
 						"animationSpeedByType": {
-							"*-baby-*": 5,
-							"*": 5.0
+							"*-baby-*": 3,
+							"*": 4.0
 						},
-				"*-pentaceratops-adult-male": 0.00001,"*-pentaceratops-adult-female": 0.00001,
-				"*-pachyrhinosaurus-adult-male": 0.00001,"*-pachyrhinosaurus-adult-female": 0.00001,
-				"*-styracosaurus-adult-male": 0.00001,"*-styracosaurus-adult-female": 0.00001,
-				"*-centrosaurus-adult-male": 0.00001,"*-centrosaurus-adult-female": 0.00001,
-				"*-nasutoceratops-adult-male": 0.00001,"*-nasutoceratops-adult-female": 0.00001,
 						"soundByType": {
 							"*-adult-*":"creature/hurt"},
 						"whenInEmotionState": "aggressiveondamage"
@@ -654,19 +774,50 @@
 							"*-baby-*": false,
 							"*": true},
 						"entityCodesByType": {
-							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",]
+							"*-pachycephalosaurus-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*",
+
+							"dromaeosauridae-*",
+							"abelisauridae-viavenator-adult-*","abelisauridae-tarascosaurus-adult-*","abelisauridae-thanos-adult-*",
+
+							"tyrannosauridae-tyrannosaurus-baby-*","tyrannosauridae-tarbosaurus-baby-*","tyrannosauridae-nanuqsaurus-baby-*","tyrannosauridae-albertosaurus-baby-*","tyrannosauridae-gorgosaurus-baby-*","tyrannosauridae-alioramus-baby-*","tyrannosauridae-qianzhousaurus-baby-*","tyrannosauridae-zhuchengtyrannus-baby-*","tyrannosauridae-bistahieversor-baby-*","tyrannosauridae-thanatotheristes-baby-*","tyrannosauridae-teratophoneus-baby-*","tyrannosauridae-dynamoterror-baby-*",
+
+							],
+							"*-adult-*": ["player","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*",
+
+							"dromaeosauridae-dromaeosaurus-adult-*","dromaeosauridae-adasaurus-adult-*","dromaeosauridae-velociraptor-adult-*","dromaeosauridae-saurornitholestes-adult-*","dromaeosauridae-atrociraptor-adult-*","dromaeosauridae-pyroraptor-adult-*","dromaeosauridae-buitreraptor-adult-*","dromaeosauridae-microraptor-adult-*","dromaeosauridae-rahonavis-adult-*",
+
+							"dromaeosauridae-utahraptor-baby-*","dromaeosauridae-dakotaraptor-baby-*","dromaeosauridae-achillobator-baby-*","dromaeosauridae-austroraptor-baby-*","dromaeosauridae-deinonychus-baby-*","dromaeosauridae-dromaeosaurus-baby-*","dromaeosauridae-adasaurus-baby-*","dromaeosauridae-velociraptor-baby-*","dromaeosauridae-saurornitholestes-baby-*","dromaeosauridae-atrociraptor-baby-*","dromaeosauridae-pyroraptor-baby-*","dromaeosauridae-buitreraptor-baby-*","dromaeosauridae-microraptor-baby-*","dromaeosauridae-rahonavis-baby-*",
+
+							"tyrannosauridae-tyrannosaurus-baby-*","tyrannosauridae-tarbosaurus-baby-*","tyrannosauridae-nanuqsaurus-baby-*","tyrannosauridae-albertosaurus-baby-*","tyrannosauridae-gorgosaurus-baby-*","tyrannosauridae-alioramus-baby-*","tyrannosauridae-qianzhousaurus-baby-*","tyrannosauridae-zhuchengtyrannus-baby-*","tyrannosauridae-bistahieversor-baby-*","tyrannosauridae-thanatotheristes-baby-*","tyrannosauridae-teratophoneus-baby-*","tyrannosauridae-dynamoterror-baby-*",
+
+							],
 						},
 						"priority": 1.83,
 						"mincooldown": 6000,
 						"maxcooldown": 6500,
 						"seekingRange": 6,
 						"movespeedByType": {
-							"*-adult-*": 0.035,
 							"*-baby-*": 0.010,
+							"*-pachycephalosaurus-adult-*":0.06,
+							"*-platytholus-adult-*":0.0524,
+							"*-prenodromaeosauridaecephale-adult-*":0.0492,
+							"*-stegoceras-adult-*":0.0504,
+							"*-hanssuesia-adult-*":0.0488,
+							"*-sinocephale-adult-*":0.0488,
+							"*-sphaerotholus-adult-*":0.0484,
+							"*-tylocephale-adult-*":0.0484,
+							"*-homalocephale-adult-*":0.0476,
+							"*-acrotholus-adult-*":0.0476,
+							"*-goyocephale-adult-*":0.0462,
+							"*-foraminacephale-adult-*":0.0462,
+							"*-alaskacephale-adult-*":0.0462,
+							"*-colepiocephale-adult-*":0.0442,
+							"*-amtocephale-adult-*":0.0442,
+							"*-wannanosaurus-adult-*":0.0424,
 						},
 						"animationSpeedByType": {
-							"*-baby-*": 5,
-							"*": 5.0
+							"*-baby-*": 3,
+							"*": 4.0
 						},
 						"soundByType": {
 							"*-adult-*":"creature/hurt"},
@@ -677,25 +828,49 @@
 						"animation": "Run",
 						"enabledByType": {"*-adult-*": true,"*": true},
 						"entityCodesByType": {
-							"*-baby-*":["bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*","abelisauridae-*",],
-							"*": ["bell-*",
-							"tyrannosauridae-tyrannosaurus-adult-*", "tyrannosauridae-tarbosaurus-adult-*","tyrannosauridae-nanuqsaurus-adult-*","tyrannosauridae-albertosaurus-adult-*","tyrannosauridae-gorgosaurus-adult-*","tyrannosauridae-alioramus-adult-*","tyrannosauridae-qianzhousaurus-adult-*",
+							"*-baby-*":["bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*","abelisauridae-*","spinosauridae-*",],
+							"*-pachycephalosaurus-*": ["bell-*",
+
+								"tyrannosauridae-tyrannosaurus-adult-*","tyrannosauridae-tarbosaurus-adult-*","tyrannosauridae-nanuqsaurus-adult-*","tyrannosauridae-albertosaurus-adult-*","tyrannosauridae-gorgosaurus-adult-*","tyrannosauridae-alioramus-adult-*","tyrannosauridae-qianzhousaurus-adult-*","tyrannosauridae-zhuchengtyrannus-adult-*","tyrannosauridae-bistahieversor-adult-*","tyrannosauridae-thanatotheristes-adult-*","tyrannosauridae-teratophoneus-adult-*","tyrannosauridae-dynamoterror-adult-*",
+
+								"spinosauridae-spinosaurus-adult-*", "spinosauridae-oxalaia-adult-*", "spinosauridae-suchomimus-adult-*", "spinosauridae-baryonyx-adult-*",
+
+								"abelisauridae-pycnonemosaurus-adult-*","abelisauridae-ekrixinatosaurus-adult-*","abelisauridae-carnotaurus-adult-*","abelisauridae-chenanisaurus-adult-*","abelisauridae-rajasaurus-adult-*","abelisauridae-abelisaurus-adult-*","abelisauridae-majungasaurus-adult-*",
+							],
+						"*": ["bell-*",
+
+							"tyrannosauridae-tyrannosaurus-adult-*","tyrannosauridae-tarbosaurus-adult-*","tyrannosauridae-nanuqsaurus-adult-*","tyrannosauridae-albertosaurus-adult-*","tyrannosauridae-gorgosaurus-adult-*","tyrannosauridae-alioramus-adult-*","tyrannosauridae-qianzhousaurus-adult-*","tyrannosauridae-zhuchengtyrannus-adult-*","tyrannosauridae-bistahieversor-adult-*","tyrannosauridae-thanatotheristes-adult-*","tyrannosauridae-teratophoneus-adult-*","tyrannosauridae-dynamoterror-adult-*",
 
 							"spinosauridae-spinosaurus-adult-*", "spinosauridae-oxalaia-adult-*", "spinosauridae-suchomimus-adult-*", "spinosauridae-baryonyx-adult-*", "spinosauridae-ichthyovenator-adult-*","spinosauridae-irritator-adult-*",
 
-							"*-dromaeosauridae-utahraptor-adult-*","*-dromaeosauridae-dakotaraptor-adult-*","*-dromaeosauridae-achillobator-adult-*",
+							"dromaeosauridae-utahraptor-adult-*","dromaeosauridae-dakotaraptor-adult-*","dromaeosauridae-achillobator-adult-*","dromaeosauridae-austroraptor-adult-*","dromaeosauridae-deinonychus-adult-*",
 
-							"abelisauridae-pycnonemosaurus-adult-*","abelisauridae-ekrixinatosaurus-adult-*","abelisauridae-carnotaurus-adult-*","abelisauridae-chenanisaurus-adult-*","abelisauridae-rajasaurus-adult-*","abelisauridae-abelisaurus-adult-*",
-							]
+							"abelisauridae-pycnonemosaurus-adult-*","abelisauridae-ekrixinatosaurus-adult-*","abelisauridae-carnotaurus-adult-*","abelisauridae-chenanisaurus-adult-*","abelisauridae-rajasaurus-adult-*","abelisauridae-abelisaurus-adult-*","abelisauridae-majungasaurus-adult-*","abelisauridae-skorpiovenator-adult-*","abelisauridae-xenotarsosaurus-adult-*","abelisauridae-rahiolisaurus-adult-*","abelisauridae-arcovenator-adult-*","abelisauridae-rugops-adult-*","abelisauridae-aucasaurus-adult-*","abelisauridae-dahalokely-adult-*","abelisauridae-ilokelesia-adult-*","abelisauridae-viavenator-adult-*","abelisauridae-tarascosaurus-adult-*","abelisauridae-thanos-adult-*",
+						]
 						},
 						"priority": 1.8,
 						"movespeedByType": {
-							"*-adult-*": 0.035,
 							"*-baby-*": 0.010,
+							"*-pachycephalosaurus-adult-*":0.06,
+							"*-platytholus-adult-*":0.0524,
+							"*-prenocephale-adult-*":0.0492,
+							"*-stegoceras-adult-*":0.0504,
+							"*-hanssuesia-adult-*":0.0488,
+							"*-sinocephale-adult-*":0.0488,
+							"*-sphaerotholus-adult-*":0.0484,
+							"*-tylocephale-adult-*":0.0484,
+							"*-homalocephale-adult-*":0.0476,
+							"*-acrotholus-adult-*":0.0476,
+							"*-goyocephale-adult-*":0.0462,
+							"*-foraminacephale-adult-*":0.0462,
+							"*-alaskacephale-adult-*":0.0462,
+							"*-colepiocephale-adult-*":0.0442,
+							"*-amtocephale-adult-*":0.0442,
+							"*-wannanosaurus-adult-*":0.0424,
 						},
 						"animationSpeedByType": {
-							"*-baby-*": 4,
-							"*": 3
+							"*-baby-*": 3,
+							"*": 4.0
 						},
 						"whenNotInEmotionState": "fleeondamage",
 						"seekingRange": 20
@@ -708,12 +883,27 @@
 						},
 						"priority": 2.1,
 						"movespeedByType": {
-							"*-adult-*": 0.04,
-							"*-baby-*": 0.02,
+							"*-baby-*": 0.010,
+							"*-pachycephalosaurus-adult-*":0.06,
+							"*-platytholus-adult-*":0.0524,
+							"*-prenocephale-adult-*":0.0492,
+							"*-stegoceras-adult-*":0.0504,
+							"*-hanssuesia-adult-*":0.0488,
+							"*-sinocephale-adult-*":0.0488,
+							"*-sphaerotholus-adult-*":0.0484,
+							"*-tylocephale-adult-*":0.0484,
+							"*-homalocephale-adult-*":0.0476,
+							"*-acrotholus-adult-*":0.0476,
+							"*-goyocephale-adult-*":0.0462,
+							"*-foraminacephale-adult-*":0.0462,
+							"*-alaskacephale-adult-*":0.0462,
+							"*-colepiocephale-adult-*":0.0442,
+							"*-amtocephale-adult-*":0.0442,
+							"*-wannanosaurus-adult-*":0.0424,
 						},
 						"animationSpeedByType": {
-							"*-baby-*": 4.5,
-							"*": 3.5
+							"*-baby-*": 3,
+							"*": 4.0
 						},
 						"seekingRange": 50,
 						"whenInEmotionState": "fleeondamage"
@@ -723,10 +913,14 @@
 						"animation": "Swim",
 						"priority": 1.4,
 						"movespeedByType": {
-							"*-adult-*": 0.025,
-							"*-baby-*": 0.01,
+							"*-baby-*": 0.004,
+							"*-adult-*": 0.008,
+
 						},
-						"animationSpeed": 1.5
+						"animationSpeedByType": {
+							"*-baby-*": 1,
+							"*-adult-*": 1,
+						},
 					},
                     {
 						"code": "stayclosetoentity",
@@ -738,15 +932,31 @@
 						"entityCodeByType": {
 							"*-adult-*": "pachycephalosauria-{type}-baby-{gender}",
 							"*-baby-*": "pachycephalosauria-{type}-adult-female"},
-						"movespeedByType": {
-							"*-adult-*": 0.035,
-							"*-baby-*": 0.010,
-							},
-						"maxDistanceByType": {"*-adult-*": 24,"*-baby-*": 6},
+
+						"maxDistanceByType": {"*-adult-*": 8,"*-baby-*": 5},
 						"searchRange": 45,
+						"movespeedByType": {
+							"*-baby-*": 0.010,
+							"*-pachycephalosaurus-adult-*":0.06,
+							"*-platytholus-adult-*":0.0524,
+							"*-prenocephale-adult-*":0.0492,
+							"*-stegoceras-adult-*":0.0504,
+							"*-hanssuesia-adult-*":0.0488,
+							"*-sinocephale-adult-*":0.0488,
+							"*-sphaerotholus-adult-*":0.0484,
+							"*-tylocephale-adult-*":0.0484,
+							"*-homalocephale-adult-*":0.0476,
+							"*-acrotholus-adult-*":0.0476,
+							"*-goyocephale-adult-*":0.0462,
+							"*-foraminacephale-adult-*":0.0462,
+							"*-alaskacephale-adult-*":0.0462,
+							"*-colepiocephale-adult-*":0.0442,
+							"*-amtocephale-adult-*":0.0442,
+							"*-wannanosaurus-adult-*":0.0424,
+						},
 						"animationSpeedByType": {
-							"*-adult-*": 5,
-							"*-baby-*": 5
+							"*-baby-*": 3,
+							"*": 4.0
 						},
 					},
                     {
@@ -819,14 +1029,27 @@
 						"eatTime": 1.5,
 						"eatLooseItems": true,
 						"movespeedByType": {
-							"*-baby-*": 0.003,
-							"*-struthiosaurus-adult-*": 0.0050,
-							"*-adult-*": 0.0045,
+							"*-baby-*": 0.0012,
+							"*-pachycephalosaurus-adult-*":0.01,
+							"*-platytholus-adult-*":0.0062,
+							"*-prenocephale-adult-*":0.0046,
+							"*-stegoceras-adult-*":0.0052,
+							"*-hanssuesia-adult-*":0.0044,
+							"*-sinocephale-adult-*":0.0044,
+							"*-sphaerotholus-adult-*":0.0042,
+							"*-tylocephale-adult-*":0.0042,
+							"*-homalocephale-adult-*":0.0038,
+							"*-acrotholus-adult-*":0.0038,
+							"*-goyocephale-adult-*":0.0031,
+							"*-foraminacephale-adult-*":0.0031,
+							"*-alaskacephale-adult-*":0.0031,
+							"*-colepiocephale-adult-*":0.0021,
+							"*-amtocephale-adult-*":0.0021,
+							"*-wannanosaurus-adult-*":0.0012,
 
 						},
 						"animationSpeedByType": {
 							"*-baby-*": 1,
-							"*-struthiosaurus-adult-*": 1.5,
 							"*-adult-*": 1,
 						},
 						"mincooldownHours": 1,
@@ -875,8 +1098,23 @@
 						"chance": 0.0005,
 						"duringDayTimeFramesByType": {"*-adult-*":[{"fromHour": 18,"toHour": 19},{"fromHour": 6,"toHour": 7}]},
 						"movespeedByType": {
-							"*-baby-*": 0.006,
-							"*-adult-*": 0.01,
+							"*-baby-*": 0.0012,
+							"*-pachycephalosaurus-adult-*":0.01,
+							"*-platytholus-adult-*":0.0062,
+							"*-prenocephale-adult-*":0.0046,
+							"*-stegoceras-adult-*":0.0052,
+							"*-hanssuesia-adult-*":0.0044,
+							"*-sinocephale-adult-*":0.0044,
+							"*-sphaerotholus-adult-*":0.0042,
+							"*-tylocephale-adult-*":0.0042,
+							"*-homalocephale-adult-*":0.0038,
+							"*-acrotholus-adult-*":0.0038,
+							"*-goyocephale-adult-*":0.0031,
+							"*-foraminacephale-adult-*":0.0031,
+							"*-alaskacephale-adult-*":0.0031,
+							"*-colepiocephale-adult-*":0.0021,
+							"*-amtocephale-adult-*":0.0021,
+							"*-wannanosaurus-adult-*":0.0012,
 
 						},
 						"animationSpeedByType": {
@@ -885,6 +1123,71 @@
 						},
 						"preferredLightLevel": 24,
 						"whenNotInEmotionState": "aggressiveondamage|aggressivearoundentities|fleeondamage"
+					},
+					{
+						"code": "stayclosetoentity",
+						"animation": "Run",
+						"priority": 2,
+						"entityCodeByType": {
+							"*-adult-*": "hitch"
+							},
+						"movespeedByType": {
+							"*-baby-*": 0.010,
+							"*-pachycephalosaurus-adult-*":0.06,
+							"*-platytholus-adult-*":0.0524,
+							"*-prenocephale-adult-*":0.0492,
+							"*-stegoceras-adult-*":0.0504,
+							"*-hanssuesia-adult-*":0.0488,
+							"*-sinocephale-adult-*":0.0488,
+							"*-sphaerotholus-adult-*":0.0484,
+							"*-tylocephale-adult-*":0.0484,
+							"*-homalocephale-adult-*":0.0476,
+							"*-acrotholus-adult-*":0.0476,
+							"*-goyocephale-adult-*":0.0462,
+							"*-foraminacephale-adult-*":0.0462,
+							"*-alaskacephale-adult-*":0.0462,
+							"*-colepiocephale-adult-*":0.0442,
+							"*-amtocephale-adult-*":0.0442,
+							"*-wannanosaurus-adult-*":0.0424,
+						},
+						"animationSpeedByType": {
+							"*-baby-*": 3,
+							"*": 4.0
+						},
+						"maxDistance": 6,
+						"searchRange": 10,
+
+					},
+					{
+						"code": "seekentity",
+						"animation": "Run",
+						"entityCodesByType": {"*-adult-*":["hitch"],},
+						"priority": 1.85,
+						"seekingRange": 10,
+						"belowTempSeekingRange": 10,
+						"movespeedByType": {
+							"*-baby-*": 0.010,
+							"*-pachycephalosaurus-adult-*":0.06,
+							"*-platytholus-adult-*":0.0524,
+							"*-prenocephale-adult-*":0.0492,
+							"*-stegoceras-adult-*":0.0504,
+							"*-hanssuesia-adult-*":0.0488,
+							"*-sinocephale-adult-*":0.0488,
+							"*-sphaerotholus-adult-*":0.0484,
+							"*-tylocephale-adult-*":0.0484,
+							"*-homalocephale-adult-*":0.0476,
+							"*-acrotholus-adult-*":0.0476,
+							"*-goyocephale-adult-*":0.0462,
+							"*-foraminacephale-adult-*":0.0462,
+							"*-alaskacephale-adult-*":0.0462,
+							"*-colepiocephale-adult-*":0.0442,
+							"*-amtocephale-adult-*":0.0442,
+							"*-wannanosaurus-adult-*":0.0424,
+						},
+						"animationSpeedByType": {
+							"*-baby-*": 3,
+							"*": 4.0
+						},
 					},
 
 
@@ -902,8 +1205,8 @@
 			"tryOnlySurface": true,
 			"insideBlockCodes": ["game:air","game:tallgrass-*","game:gravel-*","game:sand-*","game:snowlayer-1","game:soil-*"],
 			"groupSizeByType": {
-				"*-adult-male":{ "dist": "uniform","avg": 3,"var": 2},
-				"*-adult-female":{ "dist": "uniform","avg": 8,"var": 5},
+				"*-adult-male":{ "dist": "uniform","avg": 4,"var": 1},
+				"*-adult-female":{ "dist": "uniform","avg": 10,"var": 5},
 				"*":{ "dist": "uniform","avg": 0,"var": 0},
 			},
 			"companionsByType":{
@@ -924,8 +1227,8 @@
 			"spawnCapPlayerScaling": 0.0,
 			"insideBlockCodes": ["game:air","game:tallgrass-*","game:gravel-*","game:sand-*","game:snowlayer-1","game:soil-*"],
 			"groupSizeByType": {
-				"*-adult-male":{ "dist": "uniform","avg": 3,"var": 2},
-				"*-adult-female":{ "dist": "uniform","avg": 8,"var": 5},
+				"*-adult-male":{ "dist": "uniform","avg": 4,"var": 1},
+				"*-adult-female":{ "dist": "uniform","avg": 10,"var": 5},
 				"*":{ "dist": "uniform","avg": 0,"var": 0},
 			},
 			"companionsByType":{
@@ -1167,14 +1470,14 @@
     },
 
     "soundsByType": {
-		"*-adult-*":{
+		"*-pachycephalosaurus-adult-*":{
 			"hurt": "creature/hurt",
-			"death": "creature/hurt",
+			"death": "creature/death",
 			"idle": "creature/idle"
 		},
-		"*-baby-*":{
-			"hurt": "creature/baby-hurt",
-			"death": "creature/baby-hurt",
+		"*":{
+			"hurt": "creature/baby",
+			"death": "creature/baby",
 			"idle": "creature/baby"
 		},
 		"idleSoundChance": 0.1

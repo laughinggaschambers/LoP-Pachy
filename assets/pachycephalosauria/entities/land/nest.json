@@ -67,7 +67,7 @@
 			{
 				"code": "health",
 				"maxhealthByType": {
-					"*": 100
+					"*": 20
 				}
 			},
 			{
@@ -194,110 +194,214 @@
 		},
     },
 	"spawnconditionsByType": {
-			"*-ankylosaurus-nest-incubating": {
-				"climate": {
-					"minTemp": 5,
-					"maxTemp": 30,
-					"minRain": 0.3,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 0.8,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
-					"maxY": 1.6
-				},
-			},
-			"*-tarchia-nest-incubating": {
-				"climate": {
-					"minTemp": 10,
-					"maxTemp": 40,
-					"minRain": 0.2,
-					"maxRain": 0.7,
-					"minForestOrShrubs": 0.3,
-					"maxForest": 0.6,
-					"maxShrubs": 0.8,
-					"minY": 0.9,
-					"maxY": 1.5
-				},
-			},
-			"*-euoplocephalus-nest-incubating": {
-				"climate": {
-					"minTemp": 5,
-					"maxTemp": 30,
-					"minRain": 0.3,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 0.8,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
-					"maxY": 1.6
-				},
-			},
-			"*-edmontonia-nest-incubating": {
-				"climate": {
-					"minTemp": 5,
-					"maxTemp": 25,
-					"minRain": 0.3,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 0.8,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
-					"maxY": 1.6
-				},
-			},
-			"*-ziapelta-nest-incubating": {
-				"climate": {
-					"minTemp": 5,
-					"maxTemp": 30,
-					"minRain": 0.3,
-					"maxRain": 0.8,
-					"minForestOrShrubs": 0.4,
-					"maxForest": 0.8,
-					"maxShrubs": 0.7,
-					"minY": 0.9,
-					"maxY": 1.6
-				},
-			},
-			"*-pinacosaurus-nest-incubating": {
-				"climate": {
-					"minTemp": 10,
-					"maxTemp": 40,
-					"minRain": 0.2,
-					"maxRain": 0.7,
-					"minForestOrShrubs": 0.3,
-					"maxForest": 0.6,
-					"maxShrubs": 0.8,
-					"minY": 0.9,
-					"maxY": 1.5
-				},
-			},
-			"*-antarctopelta-nest-incubating": {
-				"climate": {
-					"minTemp": -10,
-					"maxTemp": 15,
-					"minRain": 0.4,
-					"maxRain": 0.9,
-					"minForestOrShrubs": 0.5,
-					"maxForest": 0.9,
-					"maxShrubs": 0.6,
-					"minY": 1,
-					"maxY": 1.7
-				},
-			},
-			"*-struthiosaurus-nest-incubating": {
-				"climate": {
-					"minTemp": 5,
-					"maxTemp": 30,
-					"minRain": 0.4,
-					"maxRain": 0.9,
-					"minForestOrShrubs": 0.5,
-					"maxForest": 0.9,
-					"maxShrubs": 0.6,
-					"minY": 1,
-					"maxY": 1.7
-				},
-			},
+			"*-pachycephalosaurus-nest-incubating": {
+                    "climate": {
+                        "minTemp": 12,
+                        "maxTemp": 28,
+                        "minRain": 0.7,
+                        "maxRain": 1.0,
+                        "minForestOrShrubs": 0.6,
+                        "maxForest": 1.0,
+                        "maxShrubs": 0.5,
+                        "minY": 1.0,
+                        "maxY": 1.1
+                    },
+                },
+    "*-platytholus-nest-incubating": {
+                    "climate": {
+                        "minTemp": 12,
+                        "maxTemp": 28,
+                        "minRain": 0.7,
+                        "maxRain": 1.0,
+                        "minForestOrShrubs": 0.6,
+                        "maxForest": 1.0,
+                        "maxShrubs": 0.5,
+                        "minY": 1.0,
+                        "maxY": 1.1
+                    },
+                },
+    "*-prenocephale-nest-incubating": {
+                    "climate": {
+                        "minTemp": 20,
+                        "maxTemp": 35,
+                        "minRain": 0.1,
+                        "maxRain": 0.4,
+                        "minForestOrShrubs": 0.0,
+                        "maxForest": 0.2,
+                        "maxShrubs": 1.0,
+                        "minY": 1.0,
+                        "maxY": 1.3
+                    },
+                },
+    "*-stegoceras-nest-incubating": {
+                    "climate": {
+                        "minTemp": 12,
+                        "maxTemp": 28,
+                        "minRain": 0.7,
+                        "maxRain": 1.0,
+                        "minForestOrShrubs": 0.6,
+                        "maxForest": 1.0,
+                        "maxShrubs": 0.5,
+                        "minY": 1.0,
+                        "maxY": 1.1
+                    },
+                },
+    "*-hanssuesia-nest-incubating": {
+                    "climate": {
+                        "minTemp": 12,
+                        "maxTemp": 28,
+                        "minRain": 0.7,
+                        "maxRain": 1.0,
+                        "minForestOrShrubs": 0.6,
+                        "maxForest": 1.0,
+                        "maxShrubs": 0.5,
+                        "minY": 1.0,
+                        "maxY": 1.1
+                    },
+                },
+    "*-sinocephale-nest-incubating": {
+                    "climate": {
+                        "minTemp": 15,
+                        "maxTemp": 30,
+                        "minRain": 0.5,
+                        "maxRain": 0.8,
+                        "minForestOrShrubs": 0.3,
+                        "maxForest": 0.7,
+                        "maxShrubs": 0.8,
+                        "minY": 1.0,
+                        "maxY": 1.2
+                    },
+                },
+    "*-sphaerotholus-nest-incubating": {
+                    "climate": {
+                        "minTemp": 15,
+                        "maxTemp": 30,
+                        "minRain": 0.5,
+                        "maxRain": 0.8,
+                        "minForestOrShrubs": 0.3,
+                        "maxForest": 0.7,
+                        "maxShrubs": 0.8,
+                        "minY": 1.0,
+                        "maxY": 1.2
+                    },
+                },
+    "*-tylocephale-nest-incubating": {
+                    "climate": {
+                        "minTemp": 20,
+                        "maxTemp": 35,
+                        "minRain": 0.1,
+                        "maxRain": 0.4,
+                        "minForestOrShrubs": 0.0,
+                        "maxForest": 0.2,
+                        "maxShrubs": 1.0,
+                        "minY": 1.0,
+                        "maxY": 1.3
+                    },
+                },
+    "*-homalocephale-nest-incubating": {
+                    "climate": {
+                        "minTemp": 20,
+                        "maxTemp": 35,
+                        "minRain": 0.1,
+                        "maxRain": 0.4,
+                        "minForestOrShrubs": 0.0,
+                        "maxForest": 0.2,
+                        "maxShrubs": 1.0,
+                        "minY": 1.0,
+                        "maxY": 1.3
+                    },
+                },
+    "*-acrotholus-nest-incubating": {
+                    "climate": {
+                        "minTemp": 12,
+                        "maxTemp": 28,
+                        "minRain": 0.7,
+                        "maxRain": 1.0,
+                        "minForestOrShrubs": 0.6,
+                        "maxForest": 1.0,
+                        "maxShrubs": 0.5,
+                        "minY": 1.0,
+                        "maxY": 1.1
+                    },
+                },
+    "*-goyocephale-nest-incubating": {
+                    "climate": {
+                        "minTemp": 15,
+                        "maxTemp": 30,
+                        "minRain": 0.5,
+                        "maxRain": 0.8,
+                        "minForestOrShrubs": 0.3,
+                        "maxForest": 0.7,
+                        "maxShrubs": 0.8,
+                        "minY": 1.0,
+                        "maxY": 1.2
+                    },
+                },
+    "*-foraminacephale-nest-incubating": {
+                    "climate": {
+                        "minTemp": 15,
+                        "maxTemp": 30,
+                        "minRain": 0.5,
+                        "maxRain": 0.8,
+                        "minForestOrShrubs": 0.3,
+                        "maxForest": 0.7,
+                        "maxShrubs": 0.8,
+                        "minY": 1.0,
+                        "maxY": 1.2
+                    },
+                },
+    "*-alaskacephale-nest-incubating": {
+                    "climate": {
+                        "minTemp": 0,
+                        "maxTemp": 20,
+                        "minRain": 0.6,
+                        "maxRain": 0.9,
+                        "minForestOrShrubs": 0.3,
+                        "maxForest": 0.6,
+                        "maxShrubs": 0.7,
+                        "minY": 1.0,
+                        "maxY": 1.1
+                    },
+                },
+    "*-colepiocephale-nest-incubating": {
+                    "climate": {
+                        "minTemp": 12,
+                        "maxTemp": 28,
+                        "minRain": 0.7,
+                        "maxRain": 1.0,
+                        "minForestOrShrubs": 0.6,
+                        "maxForest": 1.0,
+                        "maxShrubs": 0.5,
+                        "minY": 1.0,
+                        "maxY": 1.1
+                    },
+                },
+    "*-amtocephale-nest-incubating": {
+                    "climate": {
+                        "minTemp": 15,
+                        "maxTemp": 30,
+                        "minRain": 0.5,
+                        "maxRain": 0.8,
+                        "minForestOrShrubs": 0.3,
+                        "maxForest": 0.7,
+                        "maxShrubs": 0.8,
+                        "minY": 1.0,
+                        "maxY": 1.2
+                    },
+                },
+    "*-wannanosaurus-nest-incubating": {
+                    "climate": {
+                        "minTemp": 12,
+                        "maxTemp": 28,
+                        "minRain": 0.7,
+                        "maxRain": 1.0,
+                        "minForestOrShrubs": 0.6,
+                        "maxForest": 1.0,
+                        "maxShrubs": 0.5,
+                        "minY": 1.0,
+                        "maxY": 1.1
+                    },
+                },
 		}
 
 }

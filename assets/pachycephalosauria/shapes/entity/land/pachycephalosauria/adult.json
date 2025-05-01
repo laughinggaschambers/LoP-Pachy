@@ -1,6 +1,6 @@
 {
 	"editor": {
-		"collapsedPaths": ",Root/Main/Torso/Neck/Neck2/Head/Head2/Head5/Head4/Head3/Jaw4/Jaw,Root/LegL,Root/Main/Torso/Neck/Neck2/Head/Head6/Dome,Root/Main/Torso/Neck/Neck2/Head/Jaw/Jaw2,Root/ArmR,Root/Main/Torso/Neck/Neck2/Head/Head3,Root/Main/Torso/Neck/Feathers9,Root/Torso/Neck/Head/Eye Slot/Top Jaw/Upper Lip,Root/Main/Torso/Neck/Neck2/Head/Head2/Head5/Head4/Jaw2,Root/Main/Torso/Neck/Feathers3,Root/Main/Torso/Feathers2,Root/Main/Torso/Neck/Feathers2,Root/Main/Body/Feathers16,Root/Main/Body/Feathers17,Root/Main/Body/Feathers18,Root/LegR,Root/Main/Torso/Neck/Neck2/Head/Jaw/Lower Jaw,Root/ArmL3/Claw1,Root/Main/Torso/Neck/Neck2/Head/Dome/Horn,Root/Main/Torso/Feathers6,Root/Body,Root/Main/Torso/Feathers12,Root/Main/Body Back/Tail/Tail2/Tail3/Feathers25,Root/Torso,Root/Upper Lip,Root/Main/Body Back/Feathers20,Root/Main/Body Back/Feathers22,Root/LegL3,Root/Main/Torso/Neck2,Root/LegL/LegL2/ChinL/Toe,Root/Main/Body/Feathers21,Root/Main/Torso/Neck/Neck2/Head/Horn17,Root/Main/Torso/Neck/Neck2/Head/Horn19,Root/LegL/LegL2/ChinL/Toe3,Root/Body Back,Root/LegL/LegL2/ChinL/Toe5,Root/Tail,Root/Body Back/LegR/LegR2/ChinR/Toe13,Root/Torso/Neck/Head/Lower Jaw,Root/Main/Torso/Neck/Neck2/Head/Head2/Head5/Head4/Head3,Root/Tail5,Root/Lower Jaw,Root/ArmL2/ArmL4,Root/Body Back/LegR/LegR2/ChinR/FootR/Toe13,Root/Tail2,Root/Tail3,Root/Tail4,Root/Head,Root/Neck,Root/Head/Lower Jaw/Lower Jaw2,Root/ChinL,Root/Main/Torso/Neck/Head/Eye Slot/Teeth9,Root/Main/Torso/Neck/Head/Eye Slot/Teeth7,Root/Main/Torso/Neck/Head/Eye Slot/Teeth5,Root/Main/Torso/Neck/Head/Eye Slot/Teeth3,Root/ArmL2,Root/ArmL3,Root/ArmL,Root/Top Jaw,Root/LegL3/LegL4/ChinL3/FootL2/Toe9,Root/Eye Slot,Root/Main/Torso/Neck/Neck2/Head/Lower Jaw,Root/Main/Torso/Neck/Head/Eye Slot/Teeth11,Root/LegL3/LegL4/ChinL3/FootL2/Toe7",
+		"collapsedPaths": ",Root/Main/Torso/Neck/Neck2/Head/Head2/Head5/Head4/Head3/Jaw4/Jaw,Root/Main/Body Back/Body BackF/Hairs2,Root/LegL,Root/Main/Torso/Neck/Neck2/Head/Head6/Dome,Root/Main/Torso/Neck/Neck2/Head/Jaw/Jaw2,Root/ArmR,Root/Main/Torso/Neck/Neck2/Head/Head3,Root/Main/Torso/Neck/Feathers9,Root/Torso/Neck/Head/Eye Slot/Top Jaw/Upper Lip,Root/Main/Torso/Neck/Neck2/Head/Head2/Head5/Head4/Jaw2,Root/Main/Body Back/Tail/Tail2/TailF3/Hairs4,Root/Main/Torso/Neck/Feathers3,Root/Main/Torso/Feathers2,Root/Main/Torso/Neck/Feathers2,Root/Main/Body/Feathers16,Root/Main/Body/Feathers17,Root/Main/Body/Feathers18,Root/LegR,Root/Main/Torso/Neck/Neck2/Head/Jaw/Lower Jaw,Root/ArmL3/Claw1,Root/Main/Torso/Neck/Neck2/Head/Dome/Horn,Root/Main/Body Back/Tail/TailF/Hairs3,Root/Main/Torso/Feathers6,Root/Body,Root/Main/Torso/Feathers12,Root/Main/Body Back/Tail/Tail2/Tail3/Feathers25,Root/Torso,Root/Upper Lip,Root/Main/Body Back/Feathers20,Root/Main/Body Back/Feathers22,Root/LegL3,Root/Main/Torso/Neck2,Root/LegL/LegL2/ChinL/Toe,Root/Main/Body/Feathers21,Root/Main/Torso/Neck/Neck2/Head/Horn17,Root/Main/Torso/Neck/Neck2/Head/Horn19,Root/LegL/LegL2/ChinL/Toe3,Root/Body Back,Root/LegL/LegL2/ChinL/Toe5,Root/Tail,Root/Body Back/LegR/LegR2/ChinR/Toe13,Root/Torso/Neck/Head/Lower Jaw,Root/Main/Torso/Neck/Neck2/Head/Head2/Head5/Head4/Head3,Root/Tail5,Root/Lower Jaw,Root/ArmL2/ArmL4,Root/Body Back/LegR/LegR2/ChinR/FootR/Toe13,Root/Tail2,Root/Tail3,Root/Tail4,Root/Head,Root/Neck,Root/Head/Lower Jaw/Lower Jaw2,Root/ChinL,Root/Main/Torso/Neck/Head/Eye Slot/Teeth9,Root/Main/Torso/Neck/Head/Eye Slot/Teeth7,Root/Main/Torso/Neck/Head/Eye Slot/Teeth5,Root/Main/Torso/Neck/Head/Eye Slot/Teeth3,Root/ArmL2,Root/ArmL3,Root/ArmL,Root/Top Jaw,Root/LegL3/LegL4/ChinL3/FootL2/Toe9,Root/Eye Slot,Root/Main/Torso/Neck/Neck2/Head/Lower Jaw,Root/Main/Torso/Neck/Head/Eye Slot/Teeth11,Root/LegL3/LegL4/ChinL3/FootL2/Toe7",
 		"allAngles": true,
 		"entityTextureMode": true
 	},
@@ -11,7 +11,6 @@
 		"egg": [256,256]
 	},
 	"textures": {
-		"pachycephalosaurus-adult": "/Users/ASUS/Documents/GitHub/LoP-Pachy/pachycephalosaurus-adult"
 	},
 	"elements": [
 		{
@@ -2285,7 +2284,297 @@
 								"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 76.0, 20.0, 82.0, 22.0 ] },
 								"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 60.0, 39.0, 72.0, 45.0 ] },
 								"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 244.0, 0.0, 256.0, 6.0 ] }
-							}
+							},
+							"children": [
+								{
+									"name": "Hairs",
+									"from": [ 0.0, 0.0, 0.0 ],
+									"to": [ 0.0, 0.0, 0.0 ],
+									"uv": [ 0.0, 0.0 ],
+									"faces": {
+										"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+										"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+										"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+										"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 1.0 ] },
+										"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+										"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+									},
+									"children": [
+										{
+											"name": "Hair",
+											"from": [ 1.0, 1.0, 0.5 ],
+											"to": [ 1.2, 3.0, 0.7 ],
+											"uv": [ 0.0, 0.0 ],
+											"rotationOrigin": [ 1.1, 1.0, 0.6 ],
+											"rotationZ": 17.0,
+											"faces": {
+												"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+												"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+												"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+												"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+												"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+												"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+											},
+											"children": [
+												{
+													"name": "Hair2",
+													"from": [ 0.0, 2.0, 0.0 ],
+													"to": [ 0.2, 3.0, 0.2 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+													"rotationZ": 17.0,
+													"faces": {
+														"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+														"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+														"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 1.0 ] },
+														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+													}
+												}
+											]
+										},
+										{
+											"name": "Hair3",
+											"from": [ 3.0, 1.0, 1.0 ],
+											"to": [ 3.2, 3.0, 1.2 ],
+											"uv": [ 0.0, 0.0 ],
+											"rotationOrigin": [ 3.1, 1.0, 1.1 ],
+											"rotationZ": 17.0,
+											"faces": {
+												"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+												"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+												"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+												"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+												"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+												"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+											},
+											"children": [
+												{
+													"name": "Hair4",
+													"from": [ 0.0, 2.0, 0.0 ],
+													"to": [ 0.2, 3.0, 0.2 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+													"rotationZ": 17.0,
+													"faces": {
+														"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 1.5 ] },
+														"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 1.5 ] },
+														"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 1.5 ] },
+														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 1.5 ] },
+														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+													}
+												}
+											]
+										},
+										{
+											"name": "Hair5",
+											"from": [ 3.0, 1.8, 3.0 ],
+											"to": [ 3.2, 3.8, 3.2 ],
+											"uv": [ 0.0, 0.0 ],
+											"rotationOrigin": [ 3.1, 1.8, 3.1 ],
+											"rotationZ": 17.0,
+											"faces": {
+												"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+												"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+												"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+												"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+												"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+												"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+											},
+											"children": [
+												{
+													"name": "Hair6",
+													"from": [ 0.0, 2.0, 0.0 ],
+													"to": [ 0.2, 3.0, 0.2 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+													"rotationZ": 17.0,
+													"faces": {
+														"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 1.5 ] },
+														"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 1.5 ] },
+														"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 1.5 ] },
+														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 1.5 ] },
+														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+													}
+												}
+											]
+										},
+										{
+											"name": "Hair7",
+											"from": [ 5.0, 0.8, 4.0 ],
+											"to": [ 5.2, 2.8, 4.2 ],
+											"uv": [ 0.0, 0.0 ],
+											"rotationOrigin": [ 5.1, 0.8, 4.1 ],
+											"rotationZ": 17.0,
+											"faces": {
+												"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+												"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+												"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+												"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+												"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+												"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+											},
+											"children": [
+												{
+													"name": "Hair8",
+													"from": [ 0.0, 2.0, 0.0 ],
+													"to": [ 0.2, 3.0, 0.2 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+													"rotationZ": 17.0,
+													"faces": {
+														"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 1.5 ] },
+														"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 1.5 ] },
+														"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 1.5 ] },
+														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 1.5 ] },
+														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+													}
+												}
+											]
+										},
+										{
+											"name": "Hair9",
+											"from": [ 7.0, 1.8, 3.0 ],
+											"to": [ 7.2, 3.8, 3.2 ],
+											"uv": [ 0.0, 0.0 ],
+											"rotationOrigin": [ 7.1, 1.8, 3.1 ],
+											"rotationZ": 17.0,
+											"faces": {
+												"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+												"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+												"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+												"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+												"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+												"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+											},
+											"children": [
+												{
+													"name": "Hair10",
+													"from": [ 0.0, 2.0, 0.0 ],
+													"to": [ 0.2, 3.0, 0.2 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+													"rotationZ": 17.0,
+													"faces": {
+														"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 1.5 ] },
+														"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 1.5 ] },
+														"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 1.5 ] },
+														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 1.5 ] },
+														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+													}
+												}
+											]
+										},
+										{
+											"name": "Hair11",
+											"from": [ 8.0, 1.8, 5.0 ],
+											"to": [ 8.2, 3.8, 5.2 ],
+											"uv": [ 0.0, 0.0 ],
+											"rotationOrigin": [ 8.1, 1.8, 5.1 ],
+											"rotationZ": 17.0,
+											"faces": {
+												"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+												"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+												"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+												"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+												"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+												"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+											},
+											"children": [
+												{
+													"name": "Hair12",
+													"from": [ 0.0, 2.0, 0.0 ],
+													"to": [ 0.2, 3.0, 0.2 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+													"rotationZ": 17.0,
+													"faces": {
+														"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 1.5 ] },
+														"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 1.5 ] },
+														"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 1.5 ] },
+														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 1.5 ] },
+														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+													}
+												}
+											]
+										},
+										{
+											"name": "Hair13",
+											"from": [ 1.0, 0.8, 5.0 ],
+											"to": [ 1.2, 2.8, 5.2 ],
+											"uv": [ 0.0, 0.0 ],
+											"rotationOrigin": [ 1.1, 0.8, 5.1 ],
+											"rotationZ": 17.0,
+											"faces": {
+												"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+												"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+												"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+												"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+												"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+												"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+											},
+											"children": [
+												{
+													"name": "Hair14",
+													"from": [ 0.0, 2.0, 0.0 ],
+													"to": [ 0.2, 3.0, 0.2 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+													"rotationZ": 17.0,
+													"faces": {
+														"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 1.5 ] },
+														"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 1.5 ] },
+														"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 1.5 ] },
+														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 1.5 ] },
+														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+													}
+												}
+											]
+										},
+										{
+											"name": "Hair15",
+											"from": [ 6.0, 1.0, 1.0 ],
+											"to": [ 6.2, 3.0, 1.2 ],
+											"uv": [ 0.0, 0.0 ],
+											"rotationOrigin": [ 6.1, 1.0, 1.1 ],
+											"rotationZ": 17.0,
+											"faces": {
+												"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+												"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+												"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+												"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+												"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+												"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+											},
+											"children": [
+												{
+													"name": "Hair16",
+													"from": [ 0.0, 2.0, 0.0 ],
+													"to": [ 0.2, 3.0, 0.2 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+													"rotationZ": 17.0,
+													"faces": {
+														"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 1.5 ] },
+														"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 1.5 ] },
+														"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 1.5 ] },
+														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 1.5 ] },
+														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+													}
+												}
+											]
+										}
+									]
+								}
+							]
 						},
 						{
 							"name": "Body BackF2",
@@ -2334,7 +2623,299 @@
 										"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 88.0, 20.0, 93.0, 22.0 ] },
 										"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 70.0, 39.0, 82.0, 44.0 ] },
 										"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 244.0, 0.0, 256.0, 5.0 ] }
-									}
+									},
+									"children": [
+										{
+											"name": "Hairs2",
+											"from": [ 0.4, 0.8, -0.5 ],
+											"to": [ 0.4, 0.8, -0.5 ],
+											"uv": [ 0.0, 0.0 ],
+											"rotationOrigin": [ 0.4, 0.8, -0.5 ],
+											"rotationZ": -11.0,
+											"faces": {
+												"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+												"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+												"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+												"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 1.0 ] },
+												"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+												"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+											},
+											"children": [
+												{
+													"name": "Hair17",
+													"from": [ 1.0, 1.0, 2.0 ],
+													"to": [ 1.2, 3.0, 2.2 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 1.1, 1.0, 2.1 ],
+													"rotationZ": 17.0,
+													"faces": {
+														"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+														"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+														"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+													},
+													"children": [
+														{
+															"name": "Hair18",
+															"from": [ 0.0, 2.0, 0.0 ],
+															"to": [ 0.2, 5.0, 0.2 ],
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+															"rotationZ": 17.0,
+															"faces": {
+																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 3.5 ] },
+																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 3.5 ] },
+																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 3.5 ] },
+																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 3.5 ] },
+																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+															}
+														}
+													]
+												},
+												{
+													"name": "Hair19",
+													"from": [ 3.0, 1.0, 1.0 ],
+													"to": [ 3.2, 3.0, 1.2 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 3.1, 1.0, 1.1 ],
+													"rotationZ": 17.0,
+													"faces": {
+														"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+														"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+														"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+													},
+													"children": [
+														{
+															"name": "Hair20",
+															"from": [ 0.0, 2.0, 0.0 ],
+															"to": [ 0.2, 4.0, 0.2 ],
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+															"rotationZ": 17.0,
+															"faces": {
+																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+															}
+														}
+													]
+												},
+												{
+													"name": "Hair21",
+													"from": [ 3.0, 1.8, 3.0 ],
+													"to": [ 3.2, 3.8, 3.2 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 3.1, 1.8, 3.1 ],
+													"rotationZ": 17.0,
+													"faces": {
+														"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+														"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+														"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+													},
+													"children": [
+														{
+															"name": "Hair22",
+															"from": [ 0.0, 2.0, 0.0 ],
+															"to": [ 0.2, 4.0, 0.2 ],
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+															"rotationZ": 17.0,
+															"faces": {
+																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+															}
+														}
+													]
+												},
+												{
+													"name": "Hair23",
+													"from": [ 5.0, 0.8, 4.0 ],
+													"to": [ 5.2, 2.8, 4.2 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 5.1, 0.8, 4.1 ],
+													"rotationZ": 17.0,
+													"faces": {
+														"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+														"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+														"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+													},
+													"children": [
+														{
+															"name": "Hair24",
+															"from": [ 0.0, 2.0, 0.0 ],
+															"to": [ 0.2, 4.0, 0.2 ],
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+															"rotationZ": 17.0,
+															"faces": {
+																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+															}
+														}
+													]
+												},
+												{
+													"name": "Hair25",
+													"from": [ 7.0, 1.8, 3.0 ],
+													"to": [ 7.2, 3.8, 3.2 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 7.1, 1.8, 3.1 ],
+													"rotationZ": 17.0,
+													"faces": {
+														"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+														"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+														"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+													},
+													"children": [
+														{
+															"name": "Hair26",
+															"from": [ 0.0, 2.0, 0.0 ],
+															"to": [ 0.2, 4.0, 0.2 ],
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+															"rotationZ": 17.0,
+															"faces": {
+																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+															}
+														}
+													]
+												},
+												{
+													"name": "Hair27",
+													"from": [ 8.0, 1.8, 5.0 ],
+													"to": [ 8.2, 3.8, 5.2 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 8.1, 1.8, 5.1 ],
+													"rotationZ": 17.0,
+													"faces": {
+														"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+														"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+														"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+													},
+													"children": [
+														{
+															"name": "Hair28",
+															"from": [ 0.0, 2.0, 0.0 ],
+															"to": [ 0.2, 4.0, 0.2 ],
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+															"rotationZ": 17.0,
+															"faces": {
+																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+															}
+														}
+													]
+												},
+												{
+													"name": "Hair29",
+													"from": [ 1.0, 0.8, 5.0 ],
+													"to": [ 1.2, 2.8, 5.2 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 1.1, 0.8, 5.1 ],
+													"rotationZ": 17.0,
+													"faces": {
+														"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+														"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+														"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+													},
+													"children": [
+														{
+															"name": "Hair30",
+															"from": [ 0.0, 2.0, 0.0 ],
+															"to": [ 0.2, 5.0, 0.2 ],
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+															"rotationZ": 17.0,
+															"faces": {
+																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 3.5 ] },
+																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 3.5 ] },
+																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 3.5 ] },
+																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 3.5 ] },
+																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+															}
+														}
+													]
+												},
+												{
+													"name": "Hair31",
+													"from": [ 6.0, 1.0, 1.0 ],
+													"to": [ 6.2, 3.0, 1.2 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 6.1, 1.0, 1.1 ],
+													"rotationZ": 17.0,
+													"faces": {
+														"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+														"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+														"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+													},
+													"children": [
+														{
+															"name": "Hair32",
+															"from": [ 0.0, 2.0, 0.0 ],
+															"to": [ 0.2, 4.0, 0.2 ],
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+															"rotationZ": 17.0,
+															"faces": {
+																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+															}
+														}
+													]
+												}
+											]
+										}
+									]
 								},
 								{
 									"name": "TailF2",
@@ -2383,7 +2964,298 @@
 												"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 97.0, 21.0, 101.0, 23.0 ] },
 												"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 80.0, 39.5, 92.0, 43.5 ], "snapUv": false },
 												"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 242.0, 1.0, 254.0, 5.0 ] }
-											}
+											},
+											"children": [
+												{
+													"name": "Hairs3",
+													"from": [ 0.9, -0.3, -1.0 ],
+													"to": [ 0.9, -0.3, -1.0 ],
+													"uv": [ 0.0, 0.0 ],
+													"rotationOrigin": [ 0.9, -0.3, -1.0 ],
+													"faces": {
+														"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+														"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+														"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 1.0 ] },
+														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+													},
+													"children": [
+														{
+															"name": "Hair33",
+															"from": [ 1.0, 1.0, 2.0 ],
+															"to": [ 1.2, 3.0, 2.2 ],
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 1.1, 1.0, 2.1 ],
+															"rotationZ": 17.0,
+															"faces": {
+																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+															},
+															"children": [
+																{
+																	"name": "Hair34",
+																	"from": [ 0.0, 2.0, 0.0 ],
+																	"to": [ 0.2, 4.0, 0.2 ],
+																	"uv": [ 0.0, 0.0 ],
+																	"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+																	"rotationZ": 17.0,
+																	"faces": {
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																	}
+																}
+															]
+														},
+														{
+															"name": "Hair35",
+															"from": [ 3.0, 1.0, 2.0 ],
+															"to": [ 3.2, 3.0, 2.2 ],
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 3.1, 1.0, 2.1 ],
+															"rotationZ": 17.0,
+															"faces": {
+																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+															},
+															"children": [
+																{
+																	"name": "Hair36",
+																	"from": [ 0.0, 2.0, 0.0 ],
+																	"to": [ 0.2, 4.0, 0.2 ],
+																	"uv": [ 0.0, 0.0 ],
+																	"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+																	"rotationZ": 17.0,
+																	"faces": {
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																	}
+																}
+															]
+														},
+														{
+															"name": "Hair37",
+															"from": [ 3.0, 1.8, 3.0 ],
+															"to": [ 3.2, 3.8, 3.2 ],
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 3.1, 1.8, 3.1 ],
+															"rotationZ": 17.0,
+															"faces": {
+																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+															},
+															"children": [
+																{
+																	"name": "Hair38",
+																	"from": [ 0.0, 2.0, 0.0 ],
+																	"to": [ 0.2, 4.0, 0.2 ],
+																	"uv": [ 0.0, 0.0 ],
+																	"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+																	"rotationZ": 17.0,
+																	"faces": {
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																	}
+																}
+															]
+														},
+														{
+															"name": "Hair39",
+															"from": [ 5.0, 0.8, 4.0 ],
+															"to": [ 5.2, 2.8, 4.2 ],
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 5.1, 0.8, 4.1 ],
+															"rotationZ": 17.0,
+															"faces": {
+																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+															},
+															"children": [
+																{
+																	"name": "Hair40",
+																	"from": [ 0.0, 2.0, 0.0 ],
+																	"to": [ 0.2, 4.0, 0.2 ],
+																	"uv": [ 0.0, 0.0 ],
+																	"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+																	"rotationZ": 17.0,
+																	"faces": {
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																	}
+																}
+															]
+														},
+														{
+															"name": "Hair41",
+															"from": [ 7.0, 1.8, 3.0 ],
+															"to": [ 7.2, 3.8, 3.2 ],
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 7.1, 1.8, 3.1 ],
+															"rotationZ": 17.0,
+															"faces": {
+																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+															},
+															"children": [
+																{
+																	"name": "Hair42",
+																	"from": [ 0.0, 2.0, 0.0 ],
+																	"to": [ 0.2, 5.0, 0.2 ],
+																	"uv": [ 0.0, 0.0 ],
+																	"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+																	"rotationZ": 17.0,
+																	"faces": {
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 3.5 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 3.5 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 3.5 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 3.5 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																	}
+																}
+															]
+														},
+														{
+															"name": "Hair43",
+															"from": [ 8.0, 1.8, 4.0 ],
+															"to": [ 8.2, 3.8, 4.2 ],
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 8.1, 1.8, 4.1 ],
+															"rotationZ": 17.0,
+															"faces": {
+																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+															},
+															"children": [
+																{
+																	"name": "Hair44",
+																	"from": [ 0.0, 2.0, 0.0 ],
+																	"to": [ 0.2, 5.0, 0.2 ],
+																	"uv": [ 0.0, 0.0 ],
+																	"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+																	"rotationZ": 17.0,
+																	"faces": {
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 3.5 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 3.5 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 3.5 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 3.5 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																	}
+																}
+															]
+														},
+														{
+															"name": "Hair45",
+															"from": [ 1.0, 0.8, 4.0 ],
+															"to": [ 1.2, 2.8, 4.2 ],
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 1.1, 0.8, 4.1 ],
+															"rotationZ": 17.0,
+															"faces": {
+																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+															},
+															"children": [
+																{
+																	"name": "Hair46",
+																	"from": [ 0.0, 2.0, 0.0 ],
+																	"to": [ 0.2, 4.0, 0.2 ],
+																	"uv": [ 0.0, 0.0 ],
+																	"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+																	"rotationZ": 17.0,
+																	"faces": {
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																	}
+																}
+															]
+														},
+														{
+															"name": "Hair47",
+															"from": [ 6.0, 1.0, 2.0 ],
+															"to": [ 6.2, 3.0, 2.2 ],
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 6.1, 1.0, 2.1 ],
+															"rotationZ": 17.0,
+															"faces": {
+																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+															},
+															"children": [
+																{
+																	"name": "Hair48",
+																	"from": [ 0.0, 2.0, 0.0 ],
+																	"to": [ 0.2, 4.0, 0.2 ],
+																	"uv": [ 0.0, 0.0 ],
+																	"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+																	"rotationZ": 17.0,
+																	"faces": {
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
 										},
 										{
 											"name": "TailF4",
@@ -2432,7 +3304,298 @@
 														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 105.0, 22.0, 108.0, 24.0 ] },
 														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 90.0, 40.0, 102.0, 43.0 ] },
 														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 243.0, 1.0, 255.0, 4.0 ] }
-													}
+													},
+													"children": [
+														{
+															"name": "Hairs4",
+															"from": [ 1.0, -0.3, -1.5 ],
+															"to": [ 1.0, -0.3, -1.5 ],
+															"uv": [ 0.0, 0.0 ],
+															"rotationOrigin": [ 1.0, -0.3, -1.5 ],
+															"faces": {
+																"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 1.0 ] },
+																"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 1.0 ] },
+																"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 1.0 ] },
+																"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 1.0 ] },
+																"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+															},
+															"children": [
+																{
+																	"name": "Hair49",
+																	"from": [ 1.0, 1.0, 2.0 ],
+																	"to": [ 1.2, 3.0, 2.2 ],
+																	"uv": [ 0.0, 0.0 ],
+																	"rotationOrigin": [ 1.1, 1.0, 2.1 ],
+																	"rotationZ": 17.0,
+																	"faces": {
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "Hair50",
+																			"from": [ 0.0, 2.0, 0.0 ],
+																			"to": [ 0.2, 3.0, 0.2 ],
+																			"uv": [ 0.0, 0.0 ],
+																			"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+																			"rotationZ": 17.0,
+																			"faces": {
+																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 1.5 ] },
+																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 1.5 ] },
+																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 1.5 ] },
+																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 1.5 ] },
+																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																			}
+																		}
+																	]
+																},
+																{
+																	"name": "Hair51",
+																	"from": [ 3.0, 1.0, 2.0 ],
+																	"to": [ 3.2, 3.0, 2.2 ],
+																	"uv": [ 0.0, 0.0 ],
+																	"rotationOrigin": [ 3.1, 1.0, 2.1 ],
+																	"rotationZ": 17.0,
+																	"faces": {
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "Hair52",
+																			"from": [ 0.0, 2.0, 0.0 ],
+																			"to": [ 0.2, 3.0, 0.2 ],
+																			"uv": [ 0.0, 0.0 ],
+																			"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+																			"rotationZ": 17.0,
+																			"faces": {
+																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 1.5 ] },
+																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 1.5 ] },
+																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 1.5 ] },
+																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 1.5 ] },
+																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																			}
+																		}
+																	]
+																},
+																{
+																	"name": "Hair53",
+																	"from": [ 3.0, 1.8, 3.0 ],
+																	"to": [ 3.2, 3.8, 3.2 ],
+																	"uv": [ 0.0, 0.0 ],
+																	"rotationOrigin": [ 3.1, 1.8, 3.1 ],
+																	"rotationZ": 17.0,
+																	"faces": {
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "Hair54",
+																			"from": [ 0.0, 2.0, 0.0 ],
+																			"to": [ 0.2, 3.0, 0.2 ],
+																			"uv": [ 0.0, 0.0 ],
+																			"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+																			"rotationZ": 17.0,
+																			"faces": {
+																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 1.5 ] },
+																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 1.5 ] },
+																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 1.5 ] },
+																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 1.5 ] },
+																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																			}
+																		}
+																	]
+																},
+																{
+																	"name": "Hair55",
+																	"from": [ 5.0, 0.8, 4.0 ],
+																	"to": [ 5.2, 2.8, 4.2 ],
+																	"uv": [ 0.0, 0.0 ],
+																	"rotationOrigin": [ 5.1, 0.8, 4.1 ],
+																	"rotationZ": 17.0,
+																	"faces": {
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "Hair56",
+																			"from": [ 0.0, 2.0, 0.0 ],
+																			"to": [ 0.2, 3.0, 0.2 ],
+																			"uv": [ 0.0, 0.0 ],
+																			"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+																			"rotationZ": 17.0,
+																			"faces": {
+																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 1.5 ] },
+																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 1.5 ] },
+																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 1.5 ] },
+																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 1.5 ] },
+																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																			}
+																		}
+																	]
+																},
+																{
+																	"name": "Hair57",
+																	"from": [ 7.0, 1.8, 3.0 ],
+																	"to": [ 7.2, 3.8, 3.2 ],
+																	"uv": [ 0.0, 0.0 ],
+																	"rotationOrigin": [ 7.1, 1.8, 3.1 ],
+																	"rotationZ": 17.0,
+																	"faces": {
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "Hair58",
+																			"from": [ 0.0, 2.0, 0.0 ],
+																			"to": [ 0.2, 3.0, 0.2 ],
+																			"uv": [ 0.0, 0.0 ],
+																			"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+																			"rotationZ": 17.0,
+																			"faces": {
+																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 1.5 ] },
+																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 1.5 ] },
+																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 1.5 ] },
+																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 1.5 ] },
+																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																			}
+																		}
+																	]
+																},
+																{
+																	"name": "Hair59",
+																	"from": [ 8.0, 1.8, 4.0 ],
+																	"to": [ 8.2, 3.8, 4.2 ],
+																	"uv": [ 0.0, 0.0 ],
+																	"rotationOrigin": [ 8.1, 1.8, 4.1 ],
+																	"rotationZ": 17.0,
+																	"faces": {
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "Hair60",
+																			"from": [ 0.0, 2.0, 0.0 ],
+																			"to": [ 0.2, 4.0, 0.2 ],
+																			"uv": [ 0.0, 0.0 ],
+																			"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+																			"rotationZ": 17.0,
+																			"faces": {
+																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																			}
+																		}
+																	]
+																},
+																{
+																	"name": "Hair61",
+																	"from": [ 1.0, 0.8, 4.0 ],
+																	"to": [ 1.2, 2.8, 4.2 ],
+																	"uv": [ 0.0, 0.0 ],
+																	"rotationOrigin": [ 1.1, 0.8, 4.1 ],
+																	"rotationZ": 17.0,
+																	"faces": {
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "Hair62",
+																			"from": [ 0.0, 2.0, 0.0 ],
+																			"to": [ 0.2, 3.0, 0.2 ],
+																			"uv": [ 0.0, 0.0 ],
+																			"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+																			"rotationZ": 17.0,
+																			"faces": {
+																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 1.5 ] },
+																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 1.5 ] },
+																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 1.5 ] },
+																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 1.5 ] },
+																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																			}
+																		}
+																	]
+																},
+																{
+																	"name": "Hair63",
+																	"from": [ 6.0, 1.0, 2.0 ],
+																	"to": [ 6.2, 3.0, 2.2 ],
+																	"uv": [ 0.0, 0.0 ],
+																	"rotationOrigin": [ 6.1, 1.0, 2.1 ],
+																	"rotationZ": 17.0,
+																	"faces": {
+																		"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 2.5 ] },
+																		"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 2.5 ] },
+																		"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 2.5 ] },
+																		"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 2.5 ] },
+																		"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																		"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																	},
+																	"children": [
+																		{
+																			"name": "Hair64",
+																			"from": [ 0.0, 2.0, 0.0 ],
+																			"to": [ 0.2, 3.0, 0.2 ],
+																			"uv": [ 0.0, 0.0 ],
+																			"rotationOrigin": [ 0.1, 2.0, 0.1 ],
+																			"rotationZ": 17.0,
+																			"faces": {
+																				"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.5, 0.5, 1.5 ] },
+																				"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.5, 1.0, 1.5 ] },
+																				"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.0, 0.5, 1.5, 1.5 ] },
+																				"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 1.5, 0.5, 2.0, 1.5 ] },
+																				"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+																				"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 0.5, 0.0, 1.0, 0.5 ] }
+																			}
+																		}
+																	]
+																}
+															]
+														}
+													]
 												},
 												{
 													"name": "TailF6",

@@ -1,0 +1,72 @@
+[
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "pachycephalosauria:entities/land/pachycephalosauria",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityColliders",
+      "elements": {
+        "Torso": ["Neck","Neck2", "Torso", "Body", "Body Back", "Tail", "Tail2","Tail3","Tail4","Tail5",],
+        "Head": ["Head","Head3","Head5", "Jaw","Jaw2","Jaw Line","Lower Jaw","Lower Jaw2", "Nose", "Slope","Beak","Beak3"],
+        "Arm": ["ArmR","ArmL","ArmR2","ArmL2","ArmL3","ArmR4",],
+        "Leg": ["LegL","ChinL","LegR","ChinR", "LegL2","LegR2"],
+        "Critical": ["EyeL", "EyeR"],
+        "Resistant": ["Dome","DomeB","DomeF","DomeF5","Dome2","Dome3","Dome4",]
+      }
+    }
+  },
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "pachycephalosauria:entities/land/pachycephalosauria",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityColliders",
+      "elements": {
+        "Torso": ["Neck","Neck2", "Torso", "Body", "Body Back", "Tail", "Tail2","Tail3","Tail4","Tail5",],
+        "Head": ["Head","Head3","Head5", "Jaw","Jaw2","Jaw Line","Lower Jaw","Lower Jaw2", "Nose", "Slope","Beak","Beak3"],
+        "Arm": ["ArmR","ArmL","ArmR2","ArmL2","ArmL3","ArmR4",],
+        "Leg": ["LegL","ChinL","LegR","ChinR", "LegL2","LegR2"],
+        "Critical": ["EyeL", "EyeR"],
+        "Resistant": ["Dome","DomeB","DomeF","DomeF5","Dome2","Dome3","Dome4",]
+      }
+    }
+  },
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "pachycephalosauria:entities/land/pachycephalosauria",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 1,
+        "LimbsDamageMultiplier": 0.75,
+        "HeadDamageMultiplier": 2.5,
+        "CriticalDamageMultiplier": 25,
+        "DefaultResists": {"BluntAttack": 5, "SlashingAttack": 5, "PiercingAttack": 0}
+      }
+    }
+  },
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "pachycephalosauria:entities/land/pachycephalosauria",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 1,
+        "LimbsDamageMultiplier": 0.75,
+        "HeadDamageMultiplier": 2.5,
+        "CriticalDamageMultiplier": 25,
+        "DefaultResists": {"BluntAttack": 5, "SlashingAttack": 5, "PiercingAttack": 0}
+      }
+    }
+  }
+]

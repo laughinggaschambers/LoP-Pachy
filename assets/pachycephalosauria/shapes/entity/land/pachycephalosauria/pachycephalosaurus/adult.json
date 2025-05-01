@@ -1782,7 +1782,7 @@
 												{
 													"name": "EyeL",
 													"from": [ 5.8, 4.2, -0.1 ],
-													"to": [ 7.8, 5.7, 0.4 ],
+													"to": [ 7.8, 5.7, 0.5 ],
 													"unwrapMode": 2,
 													"unwrapRotation": 1,
 													"autoUnwrap": false,
@@ -1792,27 +1792,27 @@
 														"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 41.0, 0.0, 44.0, 4.0 ], "autoUv": false, "snapUv": false },
 														"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 41.0, 0.0, 42.0, 4.0 ], "autoUv": false, "snapUv": false },
 														"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 239.0, 1.0, 240.5, 3.0 ], "rotation": 90 },
-														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 44.0, 2.0, 45.0, 3.0 ] },
-														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 41.0, 0.0, 43.0, 1.0 ] },
-														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 41.0, 3.0, 43.0, 4.0 ] }
+														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 44.0, 2.0, 44.5, 3.5 ] },
+														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 41.0, 0.0, 43.0, 0.5 ] },
+														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 41.0, 3.0, 43.0, 3.5 ] }
 													}
 												},
 												{
 													"name": "EyeR",
-													"from": [ 5.8, 4.2, 5.6 ],
+													"from": [ 5.8, 4.2, 5.5 ],
 													"to": [ 7.8, 5.7, 6.1 ],
 													"unwrapMode": 2,
 													"unwrapRotation": 1,
 													"autoUnwrap": false,
 													"uv": [ 21.0, 9.0 ],
-													"rotationOrigin": [ 7.8, 7.7, 8.6 ],
+													"rotationOrigin": [ 7.8, 7.7, 8.5 ],
 													"faces": {
 														"north": { "texture": "#pachycephalosaurus-adult", "uv": [ 243.0, 5.0, 244.5, 7.0 ], "rotation": 90 },
 														"east": { "texture": "#pachycephalosaurus-adult", "uv": [ 41.0, 0.0, 42.0, 4.0 ], "autoUv": false, "snapUv": false },
 														"south": { "texture": "#pachycephalosaurus-adult", "uv": [ 41.0, 0.0, 44.0, 4.0 ], "rotation": 180, "autoUv": false, "snapUv": false },
 														"west": { "texture": "#pachycephalosaurus-adult", "uv": [ 44.0, 3.0, 45.5, 3.5 ], "rotation": 270 },
-														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 41.0, 0.0, 43.0, 1.0 ] },
-														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 41.0, 3.0, 43.0, 4.0 ] }
+														"up": { "texture": "#pachycephalosaurus-adult", "uv": [ 41.0, 0.0, 43.0, 0.5 ] },
+														"down": { "texture": "#pachycephalosaurus-adult", "uv": [ 41.0, 3.0, 43.0, 3.5 ] }
 													}
 												},
 												{

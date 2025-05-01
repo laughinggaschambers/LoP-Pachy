@@ -11,6 +11,9 @@
   "setting-drop-multiplier":"Mob drop multiplier",
   "setting-worldgen-spawnrate":"Worldgen spawnrate",
   "setting-runtime-spawnrate":"Runtime spawnrate",
+  "setting-runtime-ridable":"Ridable toggle",
+  "item-creature-hitch": "Dinosaur Hitching Post",
+  "itemdesc-creature-lure-big": "Domesticated adult dinosaur(s) will stay put where the hitch placed",
 
   "item-creature-pachycephalosauria-pachycephalosaurus-adult-male": "Pachycephalosaurus (Male)",
   "item-creature-pachycephalosauria-pachycephalosaurus-adult-female": "Pachycephalosaurus (Female)",

@@ -73,32 +73,32 @@
 			"origin": { "x": 1.5, "y": 1.5, "z": 1.5 },
 			"scale": 0.7
 		},
-		"creature-ankylosauria-*": {
+		"creature-pachycephalosauria-*": {
 			"rotate": true,
-			"translation": { "x": -10, "y": 0, "z": 0 },
+			"translation": { "x": -25, "y": -5, "z": -5 },
 			"rotation": { "x": -11, "y": -52, "z": -180 },
 			"origin": { "x": 1.5, "y": 1.5, "z": 1.5 },
-			"scale": 0.3
+			"scale": 0.5
 		},
 	},
 
 	"tpHandTransformByType": {
 		"*-baby-*": {
-			"translation": { "x": -0.51, "y": -0.2, "z": -0.7 },
-			"rotation": { "x": 53, "y": -165, "z": 77 },
+			"translation": { "x": -0.3, "y": -0.4, "z": -0.4 },
+			"rotation": { "x": 13, "y": -166, "z": 75 },
 			"origin": { "x": 0, "y": 0, "z": 0 },
 			"scale": 0.25
 		},
-		"creature-ankylosauria-*": {
-			"translation": { "x": -3, "y": -3, "z": -2 },
-			"rotation": { "x": -180, "y": 0, "z": -156 },
-			"scale": 0.15
-		}		
+		"creature-pachycephalosauria-*": {
+			"translation": { "x": -2, "y": -2.7, "z": -1.7 },
+			"rotation": { "x": 2, "y": -180, "z": 23 },
+			"scale": 0.2
+		},
 	},
 
 	"fpHandTransformByType": {
-		"creature-ankylosauria-*": {
-			"translation": { "x": -5, "y": -5, "z": 0 },
+		"creature-pachycephalosauria-*": {
+			"translation": { "x": 0.2, "y": 0, "z": 0 },
 			"rotation": { "x": -8, "y": -63, "z": -7 }
 		}
 	}
