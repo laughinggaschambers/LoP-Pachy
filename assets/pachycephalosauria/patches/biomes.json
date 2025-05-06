@@ -1,6 +1,6 @@
 [
   {
-    "file": "ankylosauria:entities/land/ankylosauria.json",
+    "file": "pachycephalosauria:entities/land/pachycephalosauria.json",
     "op": "addmerge",
     "path": "/attributesByType",
     "side": "Server",
@@ -120,7 +120,7 @@
     ]
   },
   {
-    "file": "ankylosauria:entities/land/nest.json",
+    "file": "pachycephalosauria:entities/land/nest.json",
     "op": "addmerge",
     "path": "/attributesByType",
     "side": "Server",
