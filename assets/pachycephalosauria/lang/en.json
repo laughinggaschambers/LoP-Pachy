@@ -14,6 +14,7 @@
   "setting-runtime-ridable":"Ridable toggle",
   "item-creature-hitch": "Dinosaur Hitching Post",
   "itemdesc-creature-hitch": "Domesticated adult dinosaur(s) will stay put where the hitch placed",
+  "itemdesc-creature-carcharodontosauridae-*-egg-raw": "Can be placed to hatch or cooked in cooking pot",
 
   "item-creature-pachycephalosauria-pachycephalosaurus-adult-male": "Pachycephalosaurus (Male)",
   "item-creature-pachycephalosauria-pachycephalosaurus-adult-female": "Pachycephalosaurus (Female)",
