@@ -152,7 +152,7 @@
 	"spawnconditions": {
 		"worldgen": {
 			"chanceByType": {"*-empty": 0.0},
-			"triesPerChunkByType": {"*-empty":{ "avg": 0.0, "var": 0},"*-empty":{ "avg": 0.001, "var": 0}},
+			"triesPerChunkByType": {"*-incubating":{ "avg": 0.001, "var": 0}},
 			"maxQuantityByGroup": { "code": "pachycephalosauria-*", "maxQuantity": 1 },
 			"tryOnlySurface": true,
 			"insideBlockCodes": [
@@ -202,7 +202,7 @@
                         "maxRain": 1.0,
                         "minForestOrShrubs": 0.6,
                         "maxForest": 1.0,
-                        "maxShrubs": 0.5,
+                        "maxShrubs": 1,
                         "minY": 1.0,
                         "maxY": 1.1
                     },
@@ -215,7 +215,7 @@
                         "maxRain": 1.0,
                         "minForestOrShrubs": 0.6,
                         "maxForest": 1.0,
-                        "maxShrubs": 0.5,
+                        "maxShrubs": 1,
                         "minY": 1.0,
                         "maxY": 1.1
                     },
@@ -241,7 +241,7 @@
                         "maxRain": 1.0,
                         "minForestOrShrubs": 0.6,
                         "maxForest": 1.0,
-                        "maxShrubs": 0.5,
+                        "maxShrubs": 1,
                         "minY": 1.0,
                         "maxY": 1.1
                     },
@@ -254,7 +254,7 @@
                         "maxRain": 1.0,
                         "minForestOrShrubs": 0.6,
                         "maxForest": 1.0,
-                        "maxShrubs": 0.5,
+                        "maxShrubs": 1,
                         "minY": 1.0,
                         "maxY": 1.1
                     },
@@ -267,7 +267,7 @@
                         "maxRain": 0.8,
                         "minForestOrShrubs": 0.3,
                         "maxForest": 0.7,
-                        "maxShrubs": 0.8,
+                        "maxShrubs": 1,
                         "minY": 1.0,
                         "maxY": 1.2
                     },
@@ -280,7 +280,7 @@
                         "maxRain": 0.8,
                         "minForestOrShrubs": 0.3,
                         "maxForest": 0.7,
-                        "maxShrubs": 0.8,
+                        "maxShrubs": 1,
                         "minY": 1.0,
                         "maxY": 1.2
                     },
@@ -306,7 +306,7 @@
                         "maxRain": 0.4,
                         "minForestOrShrubs": 0.0,
                         "maxForest": 0.2,
-                        "maxShrubs": 1.0,
+                        "maxShrubs": 1,
                         "minY": 1.0,
                         "maxY": 1.3
                     },
@@ -319,7 +319,7 @@
                         "maxRain": 1.0,
                         "minForestOrShrubs": 0.6,
                         "maxForest": 1.0,
-                        "maxShrubs": 0.5,
+                        "maxShrubs": 1,
                         "minY": 1.0,
                         "maxY": 1.1
                     },
@@ -332,7 +332,7 @@
                         "maxRain": 0.8,
                         "minForestOrShrubs": 0.3,
                         "maxForest": 0.7,
-                        "maxShrubs": 0.8,
+                        "maxShrubs": 1,
                         "minY": 1.0,
                         "maxY": 1.2
                     },
@@ -345,7 +345,7 @@
                         "maxRain": 0.8,
                         "minForestOrShrubs": 0.3,
                         "maxForest": 0.7,
-                        "maxShrubs": 0.8,
+                        "maxShrubs": 1,
                         "minY": 1.0,
                         "maxY": 1.2
                     },
@@ -358,7 +358,7 @@
                         "maxRain": 0.9,
                         "minForestOrShrubs": 0.3,
                         "maxForest": 0.6,
-                        "maxShrubs": 0.7,
+                        "maxShrubs": 1,
                         "minY": 1.0,
                         "maxY": 1.1
                     },
@@ -371,7 +371,7 @@
                         "maxRain": 1.0,
                         "minForestOrShrubs": 0.6,
                         "maxForest": 1.0,
-                        "maxShrubs": 0.5,
+                        "maxShrubs": 1,
                         "minY": 1.0,
                         "maxY": 1.1
                     },
@@ -384,7 +384,7 @@
                         "maxRain": 0.8,
                         "minForestOrShrubs": 0.3,
                         "maxForest": 0.7,
-                        "maxShrubs": 0.8,
+                        "maxShrubs": 1,
                         "minY": 1.0,
                         "maxY": 1.2
                     },
@@ -397,7 +397,7 @@
                         "maxRain": 1.0,
                         "minForestOrShrubs": 0.6,
                         "maxForest": 1.0,
-                        "maxShrubs": 0.5,
+                        "maxShrubs": 1,
                         "minY": 1.0,
                         "maxY": 1.1
                     },
