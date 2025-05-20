@@ -548,7 +548,7 @@
 					"*-baby-*": true,
 					"*": false
 				},
-				"hoursToGrowByType": {"*": 720,
+				"hoursToGrowByType": {
 					"*-pachycephalosaurus-*":250.0,
 					"*-platytholus-*":155.0,
 					"*-prenocephale-*":115.0,
