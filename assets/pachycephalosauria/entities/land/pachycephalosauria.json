@@ -27,6 +27,7 @@
     },
     "canClimb": true,
     "canClimbAnywhere": true,
+    "climbTouchDistance": 0,
     "hitBoxSizeByType": {
 			"*-pachycephalosaurus-adult-*": {"x": 1.0,"y": 1.5}, "*-pachycephalosaurus-baby-*": {"x": 0.2,"y": 0.5},
 			"*-platytholus-adult-*": {"x": 0.6,"y": 1.0}, "*-platytholus-baby-*": {"x": 0.1,"y": 0.3},
