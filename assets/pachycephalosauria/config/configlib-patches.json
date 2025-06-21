@@ -168,8 +168,8 @@
     },
     "boolean":{
       "pachycephalosauria:entities/land/pachycephalosauria.json": {
-        "/server/behaviors/0/enabledByType/*-pachycephalosaurus-*": "ridable",
-        "/client/behaviors/0/enabledByType/*-pachycephalosaurus-*": "ridable",
+        "/server/behaviors/3/enabledByType/*-pachycephalosaurus-*": "ridable",
+        "/client/behaviors/3/enabledByType/*-pachycephalosaurus-*": "ridable",
         }
     }
   },
